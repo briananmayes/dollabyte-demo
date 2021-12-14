@@ -2,9 +2,9 @@
     background-color: #121212;
     text-align: center;
 }
-.utility-card {
-    overflow: auto;
-    margin: 2px;
+.row{
+    align-items: center;
+
 }
 
 .container {

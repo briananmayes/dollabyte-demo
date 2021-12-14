@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dollabyte';
+  classname = "footer-area footer-area-v1 bg_cover";
 }

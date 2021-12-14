@@ -6419,11 +6419,17 @@ textarea.form-control-lg{min-height:calc(1.5em + 1rem + 2px)}
 /*===========================
     1.  COMMON css 
 ===========================*/
-body {
+html, body {
 	font-family: "Karla", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	color: #497898;
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+	overflow-y: scroll;
+	overscroll-behavior: none;
 }
 * {
 	margin: 0;
@@ -6464,7 +6470,7 @@ h5,
 h6 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
-	color: #000637;
+	color: #082c6c;
 	margin: 0px;
 }
 h1 {
@@ -12510,7 +12516,7 @@ p {
 	margin-right: 7px;
 }
 .footer-area-v2 .footer-content-area .social-box ul li a {
-	background: #121212;
+	background: #ffcfe5;
 	color: #fff;
 }
 .footer-area-v3 {

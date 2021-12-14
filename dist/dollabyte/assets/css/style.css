@@ -33,11 +33,17 @@
 ===========================*/
 
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap");
- body {
+html, body {
 	font-family: "Karla", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	color: #497898;
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+	overflow-y: scroll;
+	overscroll-behavior: none;
 }
 * {
 	margin: 0;

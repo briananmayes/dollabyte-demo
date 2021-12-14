@@ -54,7 +54,7 @@
       /*! @angular/common */
       "ofXK");
 
-      function UtilityComponent_div_5_Template(rf, ctx) {
+      function UtilityComponent_div_4_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 4);
 
@@ -93,7 +93,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("alt", item_r1.title);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", item_r1.url, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"])("alt", item_r1.title);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
@@ -109,18 +109,23 @@
         function UtilityComponent() {
           _classCallCheck(this, UtilityComponent);
 
+          this.url = "../../assets/images/Final DollaByte NFT.gif";
           this.utility = [{
             title: "2500 NFT Presale",
-            text: "with 100 of them to receive VIP Event invitation to meet with Arthur at his LA Gallery."
+            text: "with 100 of them to receive VIP Event invitation to meet with Arthur at his LA Gallery.",
+            url: this.url
           }, {
             title: "1 NFT owner",
-            text: "will receive a 2021 Rolls Royce Ghost with Arthur’s art on it. The NFT owner will have a their input in the art that’s drawn on the car to make it a very personal experience. The last Rolls Royce Arthur did went for almost $800,000, link below."
+            text: "will receive a 2021 Rolls Royce Ghost with Arthur’s art on it. The NFT owner will have a their input in the art that’s drawn on the car to make it a very personal experience. The last Rolls Royce Arthur did went for almost $800,000, link below.",
+            url: this.url
           }, {
             title: "1  FT owner",
-            text: "will receive exclusive behind the scenes experience either in Romania or Boston on the set of a blockbuster Hollywood movie."
+            text: "will receive exclusive behind the scenes experience either in Romania or Boston on the set of a blockbuster Hollywood movie.",
+            url: this.url
           }, {
             title: "$DOLLA token",
-            text: "each minted NFT will receive a select amount of daily tokens of Dollabyte. All royalties collected after the mint will be given to Dollabyte token to buy rare watches. Dollabyte watch collection will be held with Sotheby’s"
+            text: "each minted NFT will receive a select amount of daily tokens of Dollabyte. All royalties collected after the mint will be given to Dollabyte token to buy rare watches. Dollabyte watch collection will be held with Sotheby’s",
+            url: this.url
           }];
         }
 
@@ -139,9 +144,9 @@
       UtilityComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: UtilityComponent,
         selectors: [["app-utility"]],
-        decls: 6,
+        decls: 5,
         vars: 1,
-        consts: [[1, "team-sub"], [1, "container"], [1, "row"], ["class", "col-lg-4 utility-card", 4, "ngFor", "ngForOf"], [1, "col-lg-4", "utility-card"], [1, "icon"], ["src", "/src/assets/images/dollabyte-logo-v2.png", 3, "alt"], [1, "title"]],
+        consts: [[1, "team-sub"], [1, "container"], [1, "row"], ["class", "col-lg-4 utility-card", 4, "ngFor", "ngForOf"], [1, "col-lg-4", "utility-card"], [1, "icon"], [3, "src", "alt"], [1, "title"]],
         template: function UtilityComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -150,13 +155,9 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "h1");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Dollabyte Utility");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, UtilityComponent_div_5_Template, 8, 6, "div", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, UtilityComponent_div_4_Template, 8, 7, "div", 3);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -166,13 +167,13 @@
           }
 
           if (rf & 2) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.utility);
           }
         },
         directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]],
-        styles: [".team-sub[_ngcontent-%COMP%] {\n    background-color: #121212;\n}\n.utility-card[_ngcontent-%COMP%] {\n    overflow: auto;\n    margin: 2px;\n}\n.container[_ngcontent-%COMP%] {\n    align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInV0aWxpdHkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHlCQUF5QjtBQUM3QjtBQUNBO0lBQ0ksY0FBYztJQUNkLFdBQVc7QUFDZjtBQUVBO0lBQ0ksbUJBQW1CO0FBQ3ZCIiwiZmlsZSI6InV0aWxpdHkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi50ZWFtLXN1YiB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzEyMTIxMjtcbn1cbi51dGlsaXR5LWNhcmQge1xuICAgIG92ZXJmbG93OiBhdXRvO1xuICAgIG1hcmdpbjogMnB4O1xufVxuXG4uY29udGFpbmVyIHtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xufSJdfQ== */"]
+        styles: [".team-sub[_ngcontent-%COMP%] {\n    background-color: #121212;\n    text-align: center;\n}\n.utility-card[_ngcontent-%COMP%] {\n    overflow: auto;\n    margin: 2px;\n}\n.container[_ngcontent-%COMP%] {\n    align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInV0aWxpdHkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHlCQUF5QjtJQUN6QixrQkFBa0I7QUFDdEI7QUFDQTtJQUNJLGNBQWM7SUFDZCxXQUFXO0FBQ2Y7QUFFQTtJQUNJLG1CQUFtQjtBQUN2QiIsImZpbGUiOiJ1dGlsaXR5LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGVhbS1zdWIge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMxMjEyMTI7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuLnV0aWxpdHktY2FyZCB7XG4gICAgb3ZlcmZsb3c6IGF1dG87XG4gICAgbWFyZ2luOiAycHg7XG59XG5cbi5jb250YWluZXIge1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59Il19 */"]
       });
       /***/
     },
@@ -284,24 +285,24 @@
             title: "Miami Art Basel Article #1",
             url: "https://sociallifemagazine.com/2021/12/06/an-inside-look-highlights-from-art-basel-2021-nfts-art-crypto-music-more-take-over-miami/"
           }, {
-            title: "Miami Art Basel Article",
+            title: "Miami Art Basel Article #2",
             url: "https://theknockturnal.com/art-basel-in-review-event-highlights-from-miami-2021-art-crypto-music-more-the-hottest-parties-and-exhibits/"
           }];
           this.videos = [{
-            title: "Arthur's Message On What His Passion Is And Why NFTs",
+            title: "Vice Interview",
+            url: "https://youtu.be/hIylnZ7lCEM"
+          }, {
+            title: "Crypto Auction Video",
+            url: "https://www.youtube.com/watch?v=uOHN6SNabCQ&feature=youtu.be"
+          }, {
+            title: "Arthur's Passion And Why NFTs",
             url: "https://youtu.be/3autq7pbc78"
           }, {
             title: "Arthur's Real Life Art Pieces",
             url: "https://youtu.be/uyQZzsabwvQ"
           }, {
-            title: "Vice Interview",
-            url: "https://youtu.be/hIylnZ7lCEM"
-          }, {
             title: "Beverly Hills Gallery Opening",
             url: "https://youtu.be/Is3C4nyFdds"
-          }, {
-            title: "Crypto Auction Video",
-            url: "https://www.youtube.com/watch?v=uOHN6SNabCQ&feature=youtu.be"
           }, {
             title: "Mohammed Ali Foundation Auction",
             url: "https://www.youtube.com/watch?app=desktop&v=Tvy4s9GSLVc&feature=youtu.be"
@@ -325,7 +326,7 @@
         selectors: [["app-about"]],
         decls: 23,
         vars: 2,
-        consts: [["id", "about", 1, "about-area", "about-area-v1", "pt-120", "pb-120"], [1, "container"], [1, "row"], [1, "col-lg-12"], [1, "ovent-content-box"], [1, "section-title", "section-title-1"], [1, "ovent-img"], ["src", "#", "alt", "Picture of Arthur", 1, "img-fluid", "about-img"], [1, "row", "about-links"], [1, "col-lg-6"], [1, "articles"], [4, "ngFor", "ngForOf"], [1, "videos"], [1, "main-btn", "about", 3, "href"], [1, "main-btn", "main-btn-2", "about", 3, "href"]],
+        consts: [["id", "about", 1, "about-area", "about-area-v1", "pt-120", "pb-120"], [1, "container"], [1, "row"], [1, "col-lg-12"], [1, "ovent-content-box"], [1, "section-title", "section-title-1"], [1, "ovent-img"], ["src", "../../assets/images/arthur-1.jpeg", "alt", "Picture of Arthur", 1, "img-fluid", "about-img"], [1, "row", "about-links"], [1, "col-lg-6"], [1, "articles"], [4, "ngFor", "ngForOf"], [1, "videos"], [1, "main-btn", "about", 3, "href"], [1, "main-btn", "main-btn-2", "about", 3, "href"]],
         template: function AboutComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
@@ -418,7 +419,7 @@
           }
         },
         directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]],
-        styles: [".about-img[_ngcontent-%COMP%] {\n    height: 618px;\n    width: 576px;\n}\n\na.about[_ngcontent-%COMP%] {\n    margin: 3px;\n}\n\n.about-links[_ngcontent-%COMP%] {\n    text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFib3V0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsWUFBWTtBQUNoQjs7QUFFQTtJQUNJLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0QiIsImZpbGUiOiJhYm91dC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmFib3V0LWltZyB7XG4gICAgaGVpZ2h0OiA2MThweDtcbiAgICB3aWR0aDogNTc2cHg7XG59XG5cbmEuYWJvdXQge1xuICAgIG1hcmdpbjogM3B4O1xufVxuXG4uYWJvdXQtbGlua3Mge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn0iXX0= */"]
+        styles: [".about-img[_ngcontent-%COMP%] {\n    height: 618px;\n    width: 576px;\n}\n\na.about[_ngcontent-%COMP%] {\n    margin: 3px;\n}\n\n.about-links[_ngcontent-%COMP%], .articles[_ngcontent-%COMP%], .videos[_ngcontent-%COMP%] {\n    text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFib3V0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsWUFBWTtBQUNoQjs7QUFFQTtJQUNJLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0QiIsImZpbGUiOiJhYm91dC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmFib3V0LWltZyB7XG4gICAgaGVpZ2h0OiA2MThweDtcbiAgICB3aWR0aDogNTc2cHg7XG59XG5cbmEuYWJvdXQge1xuICAgIG1hcmdpbjogM3B4O1xufVxuXG4uYWJvdXQtbGlua3MsIC5hcnRpY2xlcywgLnZpZGVvcyB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG5cbiJdfQ== */"]
       });
       /***/
     },
@@ -579,43 +580,49 @@
       /* harmony import */
 
 
-      var _app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! @angular/platform-browser/animations */
+      "R1ws");
+      /* harmony import */
+
+
+      var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! ./app.component */
       "Sy1n");
       /* harmony import */
 
 
-      var _header_header_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      var _header_header_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! ./header/header.component */
       "fECr");
       /* harmony import */
 
 
-      var _utility_utility_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var _utility_utility_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! ./utility/utility.component */
       "4Nun");
       /* harmony import */
 
 
-      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! ./footer/footer.component */
       "fp1T");
       /* harmony import */
 
 
-      var _dollabyte_dollabyte_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      var _dollabyte_dollabyte_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! ./dollabyte/dollabyte.component */
       "k80h");
       /* harmony import */
 
 
-      var _about_about_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+      var _about_about_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! ./about/about.component */
       "84zG");
       /* harmony import */
 
 
-      var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+      var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @angular/core */
       "fXoL");
 
@@ -627,19 +634,19 @@
         return new (t || AppModule)();
       };
 
-      AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineNgModule"]({
+      AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineNgModule"]({
         type: AppModule,
-        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__["AppComponent"]]
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]]
       });
-      AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineInjector"]({
+      AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineInjector"]({
         providers: [],
-        imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"]]]
+        imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__["BrowserAnimationsModule"]]]
       });
 
       (function () {
-        (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵsetNgModuleScope"](AppModule, {
-          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__["AppComponent"], _header_header_component__WEBPACK_IMPORTED_MODULE_2__["HeaderComponent"], _utility_utility_component__WEBPACK_IMPORTED_MODULE_3__["UtilityComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_4__["FooterComponent"], _dollabyte_dollabyte_component__WEBPACK_IMPORTED_MODULE_5__["DollabyteComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_6__["AboutComponent"]],
-          imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"]]
+        (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵsetNgModuleScope"](AppModule, {
+          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"], _header_header_component__WEBPACK_IMPORTED_MODULE_3__["HeaderComponent"], _utility_utility_component__WEBPACK_IMPORTED_MODULE_4__["UtilityComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__["FooterComponent"], _dollabyte_dollabyte_component__WEBPACK_IMPORTED_MODULE_6__["DollabyteComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_7__["AboutComponent"]],
+          imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__["BrowserAnimationsModule"]]
         });
       })();
       /***/
@@ -1066,7 +1073,7 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
           }
         },
-        styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJmb290ZXIuY29tcG9uZW50LmNzcyJ9 */"]
+        styles: ["footer[_ngcontent-%COMP%] {\n    background-color: #121212;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0kseUJBQXlCO0FBQzdCIiwiZmlsZSI6ImZvb3Rlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZm9vdGVyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTIxMjEyO1xufSJdfQ== */"]
       });
       /***/
     },
@@ -1119,7 +1126,7 @@
         selectors: [["app-dollabyte"]],
         decls: 41,
         vars: 2,
-        consts: [[1, "banner-area", "banner-area-v1", "bg_cover"], [1, "container"], [1, "row"], [1, "col-lg-12"], [1, "banner-content", "text-center"], ["href", "#", 1, "main-btn"], [1, "fal", "fa-angle-right"], ["id", "about", 1, "about-area", "about-area-v1", "pt-120", "pb-120"], [1, "col-lg-6"], [1, "ovent-img"], ["src", "../../assets/images/dollabyte-logo-v2.png", "alt", "", 1, "img-fluid", "about-dollabyte-img"], [1, "ovent-content-box"], [1, "section-title", "section-title-1"]],
+        consts: [[1, "banner-area", "banner-area-v1", "bg_cover"], [1, "container"], [1, "row"], [1, "col-lg-12"], [1, "banner-content", "text-center"], ["href", "#", 1, "main-btn"], [1, "fal", "fa-angle-right"], ["id", "about", 1, "about-area", "about-area-v1", "pt-120", "pb-120"], [1, "col-lg-6"], [1, "ovent-img"], ["src", "../../assets/images/dollabyte-logo-v2.png", "alt", "", 1, "img-fluid", "about-dollabyte-img", "rotate", "linear", "infinte"], [1, "ovent-content-box"], [1, "section-title", "section-title-1"]],
         template: function DollabyteComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
@@ -1261,7 +1268,7 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("background-image", "url(src/assets/images/Final DollaByte NFT.gif)");
           }
         },
-        styles: [".about-dollabyte-img[_ngcontent-%COMP%] {\n    height: 618px;\n    width: 576px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRvbGxhYnl0ZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLFlBQVk7QUFDaEIiLCJmaWxlIjoiZG9sbGFieXRlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYWJvdXQtZG9sbGFieXRlLWltZyB7XG4gICAgaGVpZ2h0OiA2MThweDtcbiAgICB3aWR0aDogNTc2cHg7XG59Il19 */"]
+        styles: [".about-dollabyte-img[_ngcontent-%COMP%] {\n    height: 618px;\n    width: 576px;\n}\n\n\n\n.rotate[_ngcontent-%COMP%] {\n    -webkit-animation: rotation 3s;\n            animation: rotation 3s;\n  }\n\n.linear[_ngcontent-%COMP%] {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n  }\n\n.infinite[_ngcontent-%COMP%] {\n    -webkit-animation-iteration-count: infinite;\n            animation-iteration-count: infinite;\n  }\n\n@-webkit-keyframes rotation {\n    from {\n      transform: rotate(0deg);\n    }\n    to {\n      transform: rotate(359deg);\n    }\n  }\n\n@keyframes rotation {\n    from {\n      transform: rotate(0deg);\n    }\n    to {\n      transform: rotate(359deg);\n    }\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRvbGxhYnl0ZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLFlBQVk7QUFDaEI7O0FBRUEsMkRBQTJEOztBQUUzRDtJQUNJLDhCQUFzQjtZQUF0QixzQkFBc0I7RUFDeEI7O0FBRUE7SUFDRSx5Q0FBaUM7WUFBakMsaUNBQWlDO0VBQ25DOztBQUVBO0lBQ0UsMkNBQW1DO1lBQW5DLG1DQUFtQztFQUNyQzs7QUFFQTtJQUNFO01BQ0UsdUJBQXVCO0lBQ3pCO0lBQ0E7TUFDRSx5QkFBeUI7SUFDM0I7RUFDRjs7QUFQQTtJQUNFO01BQ0UsdUJBQXVCO0lBQ3pCO0lBQ0E7TUFDRSx5QkFBeUI7SUFDM0I7RUFDRiIsImZpbGUiOiJkb2xsYWJ5dGUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5hYm91dC1kb2xsYWJ5dGUtaW1nIHtcbiAgICBoZWlnaHQ6IDYxOHB4O1xuICAgIHdpZHRoOiA1NzZweDtcbn1cblxuLyogZnJvbSBodHRwczovL2NvZGVwZW4uaW8vU3RyZW5ndGhhbmRGcmVlZG9tL3Blbi9CYWFRWXF3ICovXG5cbi5yb3RhdGUge1xuICAgIGFuaW1hdGlvbjogcm90YXRpb24gM3M7XG4gIH1cbiAgXG4gIC5saW5lYXIge1xuICAgIGFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGxpbmVhcjtcbiAgfVxuICBcbiAgLmluZmluaXRlIHtcbiAgICBhbmltYXRpb24taXRlcmF0aW9uLWNvdW50OiBpbmZpbml0ZTtcbiAgfVxuICBcbiAgQGtleWZyYW1lcyByb3RhdGlvbiB7XG4gICAgZnJvbSB7XG4gICAgICB0cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTtcbiAgICB9XG4gICAgdG8ge1xuICAgICAgdHJhbnNmb3JtOiByb3RhdGUoMzU5ZGVnKTtcbiAgICB9XG4gIH0iXX0= */"]
       });
       /***/
     },

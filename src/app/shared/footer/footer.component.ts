@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   constructor() { }
-
+  @Input() layout: number | string | undefined;
 
 
   ngOnInit(): void {

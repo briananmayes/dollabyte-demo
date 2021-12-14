@@ -3,11 +3,11 @@ import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { UtilityComponent } from './utility/utility.component';
-import { FooterComponent } from './footer/footer.component';
-import { DollabyteComponent } from './dollabyte/dollabyte.component';
-import { AboutComponent } from './about/about.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { UtilityComponent } from './components/utility/utility.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { DollabyteComponent } from './components/dollabyte/dollabyte.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
