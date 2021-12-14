@@ -7,6 +7,8 @@ a.about {
     margin: 3px;
 }
 
-.about-links {
+.about-links, .articles, .videos {
     text-align: center;
 }
+
+

@@ -2,3 +2,26 @@
     height: 618px;
     width: 576px;
 }
+
+/* from https://codepen.io/StrengthandFreedom/pen/BaaQYqw */
+
+.rotate {
+    animation: rotation 3s;
+  }
+  
+  .linear {
+    animation-timing-function: linear;
+  }
+  
+  .infinite {
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

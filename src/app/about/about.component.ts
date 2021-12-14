@@ -35,7 +35,7 @@ export class AboutComponent implements OnInit {
       url: "https://sociallifemagazine.com/2021/12/06/an-inside-look-highlights-from-art-basel-2021-nfts-art-crypto-music-more-take-over-miami/"
     },
     {
-      title: "Miami Art Basel Article",
+      title: "Miami Art Basel Article #2",
       url: "https://theknockturnal.com/art-basel-in-review-event-highlights-from-miami-2021-art-crypto-music-more-the-hottest-parties-and-exhibits/"
     }
 
@@ -43,7 +43,15 @@ export class AboutComponent implements OnInit {
 
   videos = [
     {
-      title: "Arthur's Message On What His Passion Is And Why NFTs",
+      title: "Vice Interview",
+      url: "https://youtu.be/hIylnZ7lCEM"
+    },
+    {
+      title: "Crypto Auction Video",
+      url: "https://www.youtube.com/watch?v=uOHN6SNabCQ&feature=youtu.be"
+    },
+    {
+      title: "Arthur's Passion And Why NFTs",
       url: "https://youtu.be/3autq7pbc78"
     },
     {
@@ -51,16 +59,8 @@ export class AboutComponent implements OnInit {
       url: "https://youtu.be/uyQZzsabwvQ"
     },
     {
-      title: "Vice Interview",
-      url: "https://youtu.be/hIylnZ7lCEM"
-    },
-    {
       title: "Beverly Hills Gallery Opening",
       url: "https://youtu.be/Is3C4nyFdds"
-    },
-    {
-      title: "Crypto Auction Video",
-      url: "https://www.youtube.com/watch?v=uOHN6SNabCQ&feature=youtu.be"
     },
     {
       title: "Mohammed Ali Foundation Auction",
