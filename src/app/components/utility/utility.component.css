@@ -1,6 +1,9 @@
 .team-sub {
-    background-color: #121212;
+    background-color: #fff;
     text-align: center;
+}
+p{
+    color: #000;
 }
 .row{
     align-items: center;

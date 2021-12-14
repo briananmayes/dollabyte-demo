@@ -6470,7 +6470,7 @@ h5,
 h6 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
-	color: #082c6c;
+	color: #3137f6;
 	margin: 0px;
 }
 h1 {
@@ -6535,7 +6535,7 @@ p {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
-	border: 2px solid #082c6c;
+	border: 2px solid #3137f6;
 	padding: 0 48px;
 	font-size: 16px;
 	line-height: 60px;
@@ -6544,7 +6544,7 @@ p {
 	cursor: pointer;
 	z-index: 5;
 	transition: all 0.4s ease-out 0s;
-	background-color: #082c6c;
+	background-color: #3137f6;
 	position: relative;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -6579,14 +6579,14 @@ p {
 }
 .main-btn:hover {
 	background-color: transparent;
-	color: #082c6c;
-	border-color: #082c6c;
+	color: #3137f6;
+	border-color: #3137f6;
 }
 .main-btn:hover::before {
-	border-color: #082c6c;
+	border-color: #3137f6;
 }
 .main-btn:hover::after {
-	border-color: #082c6c;
+	border-color: #3137f6;
 }
 .main-btn.main-btn-2 {
 	background-color: transparent;
@@ -6600,8 +6600,8 @@ p {
 	border-color: rgba(255, 255, 255, 0.2);
 }
 .main-btn.main-btn-2:hover {
-	border-color: #082c6c;
-	background: #082c6c;
+	border-color: #3137f6;
+	background: #3137f6;
 }
 .main-btn.main-btn-2:hover::before {
 	border-color: #fff;
@@ -6612,7 +6612,7 @@ p {
 .section-title h2 {
 	font-size: 60px;
 	line-height: 70px;
-	color: #082c6c;
+	color: #3137f6;
 	letter-spacing: -1.3px;
 }
 @media (max-width: 767px) {
@@ -6912,7 +6912,7 @@ p {
 .header-navigation .nav-container .main-menu ul li a {
 	display: block;
 	font-size: 16px;
-	color: #5a70a1;
+	color: #fff;
 	text-transform: capitalize;
 	padding: 16px 10px;
 }

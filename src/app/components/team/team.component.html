@@ -1,0 +1,29 @@
+<section class="Team-area team-area-v1 bg_cover">
+    <div class="team-main-item pt-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="section-title section-title-1 text-center">
+                        <h2>Meet the Team</h2>
+                    </div>
+                </div>
+            </div>
+<div class="row">
+    <div class="col-lg-3 col-md-6 col-sm-12" *ngFor="let item of speakers | slice:0:8">
+        <div class="team-item mt-40">
+            <div class="team-thumb">
+                <img [src]="item.img" [alt]="item.name">
+                <i class="fas fa-plus"></i>
+            </div>
+            <div class="team-content text-center">
+                <h3 class="title">
+                    {{item.name}}
+                </h3>
+                <span>{{item.title}}</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</section>

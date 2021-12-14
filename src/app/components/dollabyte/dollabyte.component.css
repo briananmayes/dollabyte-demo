@@ -3,6 +3,10 @@
     width: 576px;
 }
 
+p {
+  color: #fff;
+}
+
 /* from https://codepen.io/StrengthandFreedom/pen/BaaQYqw */
 
 .rotate {

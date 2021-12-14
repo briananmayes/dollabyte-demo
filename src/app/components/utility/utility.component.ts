@@ -23,13 +23,13 @@ export class UtilityComponent implements OnInit {
       url: this.url
     },
     {
-      title: "1  FT owner",
-      text: "will receive exclusive behind the scenes experience either in Romania or Boston on the set of a blockbuster Hollywood movie.",
+      title: "$DOLLA token",
+      text: "each minted NFT will receive a select amount of daily tokens of Dollabyte. All royalties collected after the mint will be given to Dollabyte token to buy rare watches. Dollabyte watch collection will be held with Sotheby’s",
       url: this.url
     },
     {
-      title: "$DOLLA token",
-      text: "each minted NFT will receive a select amount of daily tokens of Dollabyte. All royalties collected after the mint will be given to Dollabyte token to buy rare watches. Dollabyte watch collection will be held with Sotheby’s",
+      title: "1  FT owner",
+      text: "will receive exclusive behind the scenes experience either in Romania or Boston on the set of a blockbuster Hollywood movie.",
       url: this.url
     }
   ]
