@@ -1,10 +1,13 @@
 .about-dollabyte-img {
-    height: 618px;
-    width: 576px;
+    max-width: 100%;
+    box-shadow: 5px 10px 8px #212121;
+    border-left: 2px solid #212121;
+    border-top: 2px solid #212121;
 }
 
 p {
   color: #fff;
+  padding-bottom: 15px;
 }
 
 /* from https://codepen.io/StrengthandFreedom/pen/BaaQYqw */

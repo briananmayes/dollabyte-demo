@@ -7,34 +7,46 @@
 
 <h4>Who am I?</h4>
 <h2>ARTHUR J WILLIAMS JR</h2>
+</div>
+</div>
+</div>
+</div>
 <div class="row">
+    <div class="col-lg-6">
+        <div class="ovent-content-box">
 <div class="ovent-img">
-    <img src="../../assets/images/arthur-1.jpeg" class="img-fluid about-img" alt="Picture of Arthur">
+    <img src="../../../assets/images/arthur-1.jpeg" class="img-fluid about-img" alt="Picture of Arthur">
+</div>
+</div>
 </div>
 <!-- TO DO: include another image of Arthur or short bio -->
-</div>
-</div>
-<div class="row about-links">
 <div class="col-lg-6">
-    <h4>Articles</h4>
-<ul class="articles">
-    <li *ngFor="let link of articles">
-        <a class="main-btn about" href="{{link.url}}">{{link.title}}</a>
-    </li>
-</ul>
-</div>
-<div class="col-lg-6">
-    <h4>Videos</h4>
-    <ul class="videos">
-        <li *ngFor="let link of videos">
-            <a class="main-btn main-btn-2 about" href="{{link.url}}">{{link.title}}</a>
+    <div class="ovent-content-box">
+    <h4 class="col-title">Articles</h4>
+    <ul class="articles">
+        <li *ngFor="let link of articles">
+            <a class="main-btn about" href="{{link.url}}">{{link.title}}</a>
         </li>
     </ul>
     </div>
-    </div>
-
 </div>
 </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="ovent-content-box">
+                    <h4 class="col-title">Videos</h4>
+                    <ul class="videos">
+                        <li *ngFor="let link of videos">
+                            <a class="main-btn main-btn-2 about" href="{{link.url}}">{{link.title}}</a>
+                        </li>
+                    </ul>
+                    </div>
+                    </div>
+                    <div class="col-lg-6">
+                    <div class="ovent-img">
+                        <img src="../../../assets/images/arthur-4.jpeg" class="img-fluid about-img" alt="Picture of Arthur">
+                    </div>
+                    </div>
 </div>
 </div>
 </section>

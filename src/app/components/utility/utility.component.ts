@@ -28,7 +28,7 @@ export class UtilityComponent implements OnInit {
       url: this.url
     },
     {
-      title: "1  FT owner",
+      title: "1 NFT owner",
       text: "will receive exclusive behind the scenes experience either in Romania or Boston on the set of a blockbuster Hollywood movie.",
       url: this.url
     }

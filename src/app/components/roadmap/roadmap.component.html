@@ -1,12 +1,24 @@
 <section class="about-area about-area-v1 pt-120 pb-120" id="about">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
                 <div class="section-title section-title-1">
-                    <h2>Roadmap</h2>
+                    <h1>ROADMAP</h1>
                     <!-- TO DO: add roadmap contents -->
                   </div>
                   </div>
+                  </div>
+                  <div class="row justify-content-center">
+                      <div class="col-lg-3 col-md-6 col-sm-12" *ngFor="let item of roadmap">
+                          <div class="roadmap-img">
+                              <img src="../../../assets/images/dollabyte-logo-v2.png" class="img-responsive roadmap-img" [alt]="item.phase">
+                          </div>
+                          <div class="content">
+                              <h3 class="title">{{item.title}}</h3>
+                              <p>{{item.launch}}</p>
+                            </div>
+                      </div>
+
                   </div>
                   </div>
 </section>

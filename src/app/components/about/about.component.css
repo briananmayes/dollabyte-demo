@@ -2,8 +2,6 @@
 	background: #fff;
 }
 .about-img {
-    height: 500px;
-    width: 500px;
     border-radius: 50%;
     border: 1px solid white;
 }
@@ -19,5 +17,12 @@ a.about {
 h4 {
     color: #000;
 }
+.col-title {
+    text-align: center;
+}
 
+.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
