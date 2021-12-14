@@ -251,7 +251,7 @@
           }
         },
         directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]],
-        styles: [".about-img[_ngcontent-%COMP%] {\n    height: 500px;\n    width: 500px;\n    border-radius: 50%;\n    border: 1px solid white;\n}\n\na.about[_ngcontent-%COMP%] {\n    margin: 3px;\n}\n\n.about-links[_ngcontent-%COMP%], .articles[_ngcontent-%COMP%], .videos[_ngcontent-%COMP%] {\n    text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFib3V0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsWUFBWTtJQUNaLGtCQUFrQjtJQUNsQix1QkFBdUI7QUFDM0I7O0FBRUE7SUFDSSxXQUFXO0FBQ2Y7O0FBRUE7SUFDSSxrQkFBa0I7QUFDdEIiLCJmaWxlIjoiYWJvdXQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5hYm91dC1pbWcge1xuICAgIGhlaWdodDogNTAwcHg7XG4gICAgd2lkdGg6IDUwMHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB3aGl0ZTtcbn1cblxuYS5hYm91dCB7XG4gICAgbWFyZ2luOiAzcHg7XG59XG5cbi5hYm91dC1saW5rcywgLmFydGljbGVzLCAudmlkZW9zIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cblxuIl19 */"]
+        styles: [".about-area-v1[_ngcontent-%COMP%] {\n\tbackground: #fff;\n}\n.about-img[_ngcontent-%COMP%] {\n    height: 500px;\n    width: 500px;\n    border-radius: 50%;\n    border: 1px solid white;\n}\na.about[_ngcontent-%COMP%] {\n    margin: 3px;\n}\n.about-links[_ngcontent-%COMP%], .articles[_ngcontent-%COMP%], .videos[_ngcontent-%COMP%] {\n    text-align: center;\n}\nh4[_ngcontent-%COMP%] {\n    color: #000;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFib3V0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxnQkFBZ0I7QUFDakI7QUFDQTtJQUNJLGFBQWE7SUFDYixZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLHVCQUF1QjtBQUMzQjtBQUVBO0lBQ0ksV0FBVztBQUNmO0FBRUE7SUFDSSxrQkFBa0I7QUFDdEI7QUFFQTtJQUNJLFdBQVc7QUFDZiIsImZpbGUiOiJhYm91dC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmFib3V0LWFyZWEtdjEge1xuXHRiYWNrZ3JvdW5kOiAjZmZmO1xufVxuLmFib3V0LWltZyB7XG4gICAgaGVpZ2h0OiA1MDBweDtcbiAgICB3aWR0aDogNTAwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHdoaXRlO1xufVxuXG5hLmFib3V0IHtcbiAgICBtYXJnaW46IDNweDtcbn1cblxuLmFib3V0LWxpbmtzLCAuYXJ0aWNsZXMsIC52aWRlb3Mge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuaDQge1xuICAgIGNvbG9yOiAjMDAwO1xufVxuXG5cbiJdfQ== */"]
       });
       /***/
     },
@@ -1539,7 +1539,7 @@
         selectors: [["app-team"]],
         decls: 11,
         vars: 5,
-        consts: [[1, "Team-area", "team-area-v1", "bg_cover"], [1, "team-main-item", "pt-120"], [1, "container"], [1, "row", "justify-content-center"], [1, "col-lg-9"], [1, "section-title", "section-title-1", "text-center"], [1, "row"], ["class", "col-lg-3 col-md-6 col-sm-12", 4, "ngFor", "ngForOf"], [1, "col-lg-3", "col-md-6", "col-sm-12"], [1, "team-item", "mt-40"], [1, "team-thumb"], [3, "src", "alt"], [1, "fas", "fa-plus"], [1, "team-content", "text-center"], [1, "title"]],
+        consts: [[1, "team-area-v2", "pt-120", "pb-120"], [1, "team-main-item", "pt-120"], [1, "container"], [1, "row", "justify-content-center"], [1, "col-lg-9"], [1, "section-title", "section-title-1", "text-center"], [1, "row"], ["class", "col-lg-3 col-md-6 col-sm-12", 4, "ngFor", "ngForOf"], [1, "col-lg-3", "col-md-6", "col-sm-12"], [1, "team-item", "mt-40"], [1, "team-thumb"], [3, "src", "alt"], [1, "fas", "fa-plus"], [1, "team-content", "text-center"], [1, "title"]],
         template: function TeamComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
@@ -1589,7 +1589,7 @@
         },
         directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]],
         pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["SlicePipe"]],
-        styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0ZWFtLmNvbXBvbmVudC5jc3MifQ== */"]
+        styles: [".team-area-v2[_ngcontent-%COMP%]{\n    background-color: #121212;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlYW0uY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHlCQUF5QjtBQUM3QiIsImZpbGUiOiJ0ZWFtLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGVhbS1hcmVhLXYye1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMxMjEyMTI7XG59Il19 */"]
       });
       /***/
     },
