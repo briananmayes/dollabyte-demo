@@ -1,0 +1,50 @@
+<header class="header-area header-area-v1">
+    <div class="header-navigation" id="sticky-header">
+        <div class="container custom-container">
+            <div class="nav-container d-flex align-items-center justify-content-between" [ngClass]="visible ? '' : 'breakpoint-on'" (window:resize)="detectHeader()">
+                <!-- site logo -->
+                <div class="brand_logo">
+                    <a routerLink="/"><img src="../../assets/images/dollabyte-logo-v2.png" class="img-fluid logo" alt=""></a>
+                </div>
+                <div class="nav-menu" [ngClass]="navMethod ? '' : 'menu-on'">
+                    <!-- Navbar Close Icon -->
+                    <div class="navbar-close"  (click)="toggleNav()">
+                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                    </div>
+                    <!-- nav-menu -->
+                    <nav class="main-menu">
+                        <ul>
+                            <li class="menu-item">
+                                <a href="#">Home</a>
+                                </li>
+                            <li class="menu-item">
+                                <a class="nav-link" href="#">Arthur</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="nav-link" href="#">Discord</a>
+                                </li>
+                            <li class="menu-item">
+                                <a class="nav-link" href="#">Twitter</a>
+                                
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="nav-pushed-item">
+                        <div class="navbar-btn">
+                            <a class="main-btn" routerLink="/contact"><i class="fal fa-ticket"></i> Connect Wallet</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-push-item" [ngClass]="visible ? '' : 'd-none'" (window:resize)="detectHeader()">
+                    <div class="navbar-btn">
+                        <a class="main-btn" routerLink="/contact"><i class="fal fa-ticket"></i> Connect Wallet</a>
+                    </div>
+                </div>
+                <!-- Navbar Toggler -->
+                <div class="navbar-toggler" [ngClass]="navMethod ? '' : 'active'" (click)="toggleNav()">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

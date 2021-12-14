@@ -1,0 +1,17 @@
+<!-- code used from Ovent template-->
+<div class="team-sub">
+    <div class="container">
+        <div class="row">
+            <h1>Dollabyte Utility</h1>
+            <div class="col-lg-4 utility-card" *ngFor="let item of utility;let i = index">
+                <div class="team-sub-item text-center item-{{1+i}}">
+                    <div class="icon">
+                        <img src="/src/assets/images/dollabyte-logo-v2.png" [alt]="item.title">
+                    </div>
+                    <h3 class="title">{{item.title}}</h3>
+                    <p>{{item.text}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+.banner {
+    text-align: center;
+}
+
+
+/* Navigation */
+a.nav-link{
+    text-align: right;
+}
+.dollabyte{
+    animation: fadeIn 10s ease;
+}
+
+img {
+    max-width: 100%;
+}
