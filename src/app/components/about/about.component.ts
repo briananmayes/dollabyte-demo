@@ -72,6 +72,7 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
     const faders = document.querySelectorAll('.fade-in');
+    const sliders = document.querySelectorAll('.slide-in');
 
 const appearOptions = {
   threshold: 0.5                                                                                                                                                                                      
@@ -92,6 +93,8 @@ const appearOnScroll = new IntersectionObserver(
 );
 
 faders.forEach(fader => appearOnScroll.observe(fader));
+
+sliders.forEach(slide => appearOnScroll.observe(slide));
   }
 
   }

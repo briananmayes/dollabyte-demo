@@ -1,10 +1,12 @@
+.about-area-v1 {
+        background-image: linear-gradient(rgb(45, 45, 59), rgb(29, 29, 59)), url("../../../assets/images/LT_0001_RR-copy.png"), url("../../../assets/images//LT_0002_L-copy.png");
+          background-size: contain, contain, contain;
+          background-repeat: repeat-y;
+          background-blend-mode: lighten;
+}
 .about-img {
     border-radius: 50%;
     border: 1px solid white;
-}
-
-a.about {
-    margin: 3px;
 }
 
 .about-links, .articles, .videos {

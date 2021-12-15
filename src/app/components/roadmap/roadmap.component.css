@@ -1,3 +1,10 @@
+.about-area-v1 {
+    background-image: linear-gradient(rgb(29, 29, 59), rgb(45, 45, 59)), url("../../../assets/images/LT_0001_RR-copy.png"), url("../../../assets/images/LT_0002_L-copy.png");
+	background-size: contain;
+	background-repeat: repeat-y;
+	background-blend-mode: lighten;
+    text-align: center;
+}
 .container-2 {
     max-height: 100vh;
     width: 100%;
@@ -97,6 +104,6 @@
 }
 .timeline ul li:nth-child(even)::after {
     transform: translate(50%, 50%);
-    left: 30px;
+    left: 25px;
 }
 

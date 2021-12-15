@@ -51,12 +51,13 @@ html, body {
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
 }
+/*
 section {
-	background-image: linear-gradient(rgba(1, 1, 44, 0.87), rgba(1, 1, 44, 0.87)), url("../images/LT_0001_RR-copy.png"), url("../images//LT_0002_L-copy.png");
+	background-image: linear-gradient(rgba(1, 1, 44, 0.87), rgba(41, 41, 92, 0.87)), url("../images/LT_0001_RR-copy.png"), url("../images//LT_0002_L-copy.png");
 	background-size: contain, contain, contain;
-	background-repeat: repeat-y;
+	background-repeat: repeat-y, repeat-y, no-repeat;
 	background-blend-mode: multiply;
-}
+}*/
 * {
 	margin: 0;
 	padding: 0;
@@ -99,7 +100,7 @@ h5,
 h6 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
-	color: #3137f6;
+	color: #fff;
 	margin: 0px;
 	text-align: center;
 }
@@ -168,6 +169,9 @@ p {
 	-ms-user-select: none;
 	user-select: none;
 	border-radius: 25px;
+	border: 1px solid #fff;
+	box-shadow: 2px 5px 8px rgba(117, 112, 112, 0.1);
+	transition: all 0.3s ease 0s;
 	padding: 0 48px;
 	font-size: 12px;
 	line-height: 40px;
@@ -181,6 +185,8 @@ p {
 	transition: all 0.4s ease-out 0s;
 	background-color: #3137f6;
 	position: relative;
+	width: 100%;
+	margin: 5px 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 	.main-btn {
@@ -273,7 +279,7 @@ p {
 .section-title h2 {
 	font-size: 60px;
 	line-height: 70px;
-	color: #3137f6;
+	color: #fff;
 	letter-spacing: -1.3px;
 }
 @media (max-width: 767px) {
@@ -521,7 +527,7 @@ p {
 	.header-area-v1 .header-navigation .nav-container {
 		padding: 15px 15px;
 	}
-}
+}/*
 .header-area-v1 .header-navigation .nav-container::before {
 	position: absolute;
 	content: '';
@@ -532,7 +538,7 @@ p {
 	width: 95%;
 	background: #fff;
 	opacity: .14;
-}
+}*/
 .header-area-v1 .header-navigation .nav-container .main-menu ul li .sub-menu {
 	top: 145%;
 }
@@ -737,7 +743,7 @@ p {
 	display: block;
 }
 .header-navigation .nav-container.breakpoint-on .nav-pushed-item {
-	padding-left: 20px;
+	padding: 0 20px;
 	margin-top: 40px;
 }
 .header-navigation .navbar-toggler {
@@ -6261,7 +6267,7 @@ p {
 
 .footer-area-v1 {
 	position: relative;
-	padding: 350px 0 120px;
+	padding: 50px 0 50px;
 }
 .footer-area-v1 .ovent-overlay {
 	background-color: rgba(0, 6, 55, 0.502);
@@ -6300,7 +6306,7 @@ p {
 	color: rgba(255, 255, 255, 0.8);
 }
 .footer-area-v1 .footer-content-area .social-box {
-	padding-top: 60px;
+	padding-top: 20px;
 }
 .footer-area-v1 .footer-content-area .social-box ul li {
 	display: inline-block;

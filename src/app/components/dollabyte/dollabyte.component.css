@@ -1,8 +1,14 @@
+.about-area-v1 {
+  background-image: linear-gradient(rgb(29, 29, 59), rgb(45, 45, 59)), url("../../../assets/images/LT_0001_RR-copy.png"), url("../../../assets/images//LT_0002_L-copy.png");
+	background-size: contain;
+	background-repeat: repeat-y;
+	background-blend-mode: lighten;
+}
+
 .about-dollabyte-img {
     max-width: 100%;
-    box-shadow: 5px 10px 8px #212121;
-    border-left: 2px solid #212121;
-    border-top: 2px solid #212121;
+    box-shadow: 2px 5px 8px rgba(117, 112, 112, 0.1);
+    
 }
 
 p {
