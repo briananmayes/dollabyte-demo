@@ -1,6 +1,3 @@
-.about-area-v1 {
-	background: #fff;
-}
 .about-img {
     border-radius: 50%;
     border: 1px solid white;
@@ -12,10 +9,6 @@ a.about {
 
 .about-links, .articles, .videos {
     text-align: center;
-}
-
-h4 {
-    color: #000;
 }
 .col-title {
     text-align: center;

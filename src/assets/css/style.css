@@ -37,7 +37,7 @@ html, body {
 	font-family: "Karla", sans-serif;
 	font-weight: normal;
 	font-style: normal;
-	color: #497898;
+	color: #858e94;
 	width: 100%;
     margin: 0px;
     padding: 0px;
@@ -45,6 +45,17 @@ html, body {
 	overflow-y: scroll;
 	overscroll-behavior: none;
 	text-align: center;
+	animation: animatedBackground 40s linear infinte;
+}
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+section {
+	background-image: linear-gradient(rgba(1, 1, 44, 0.87), rgba(1, 1, 44, 0.87)), url("../images/LT_0001_RR-copy.png"), url("../images//LT_0002_L-copy.png");
+	background-size: contain, contain, contain;
+	background-repeat: repeat-y;
+	background-blend-mode: multiply;
 }
 * {
 	margin: 0;
@@ -58,6 +69,7 @@ img {
 }
 a {
 	color: inherit;
+	text-decoration: none;
 }
 a:hover,
 a:focus {
@@ -120,7 +132,7 @@ p {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 28px;
-	color: #497898;
+	color: #fff;
 	margin: 0px;
 }
 .bg_cover {
@@ -155,11 +167,10 @@ p {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	border: 2px solid #3137f6;
+	border-radius: 25px;
 	padding: 0 48px;
-	font-size: 16px;
-	line-height: 60px;
-	border-radius: 0px;
+	font-size: 12px;
+	line-height: 40px;
 	color: #fff;
 	cursor: pointer;
 	z-index: 5;
@@ -212,8 +223,26 @@ p {
 .main-btn:hover {
 	background-color: transparent;
 	color: #3137f6;
-	border-color: #3137f6;
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
 }
+@keyframes shake {
+	10%, 90% {
+	  transform: translate3d(-1px, 0, 0);
+	}
+	20%, 80% {
+	  transform: translate3d(2px, 0, 0);
+	}
+	
+	30%, 50%, 70% {
+	  transform: translate3d(-2px, 0, 0);
+	}
+	40%, 60% {
+	  transform: translate3d(2px, 0, 0);
+  }
+}
+
 .main-btn:hover::before {
 	border-color: #3137f6;
 }
@@ -221,7 +250,7 @@ p {
 	border-color: #3137f6;
 }
 .main-btn.main-btn-2 {
-	background-color: transparent;
+	background-color: rgba(187, 159, 32, 0.705);
 	border-color: rgba(255, 255, 255, 0.2);
 	color: #fff;
 }
@@ -1041,12 +1070,12 @@ p {
 .banner-area-v1 {
 	position: relative;
 	z-index: 1;
-	padding: 404px 0 240px;
+	padding-top: 40px;
 	overflow: hidden;
 }
 @media (max-width: 767px) {
 	.banner-area-v1 {
-		padding: 250px 0 240px;
+		padding: 140px 0 40px;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1095,10 +1124,17 @@ p {
 	height: 100%;
 	width: 100%;
 	background-image: url("../images/Final DollaByte NFT.gif");
-	background-position: 50% 50%;
-	background-size: 1920px 1050px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 	z-index: -2;
 }
+@media (max-width: 767px) {
+	.banner-area-v1::before {
+		background-size: cover;
+	}
+}
+
 .banner-area-v1 .scroll-btn {
 	position: absolute;
 	bottom: 60px;
@@ -1141,8 +1177,8 @@ p {
 }
 @media (max-width: 767px) {
 	.banner-area-v1 .banner-content h1 {
-		font-size: 40px;
-		line-height: 50px;
+		font-size: 20px;
+		line-height: 40px;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1479,9 +1515,7 @@ p {
 		margin-bottom: 10px;
 	}
 }
-.about-area-v1 {
-	background: #121212;
-}
+
 /*
 .about-area-v1 .ovent-img {
 	padding-top: 50px;
@@ -1550,7 +1584,7 @@ p {
 }
 .about-area-v1 .ovent-content-box ul li a.main-btn-2 {
 	border-color: #dadff8;
-	color: #3137f6;
+	color: #fff;
 }
 .about-area-v1 .ovent-content-box ul li a.main-btn-2::before {
 	border-color: #f5f2f8;
@@ -2204,9 +2238,6 @@ p {
 	text-transform: uppercase;
 	padding-top: 6px;
 }
-.team-area-v2 {
-	background: #fff8f8;
-}
 .team-area-v2 .team-item {
 	position: relative;
 	z-index: 1;
@@ -2223,8 +2254,8 @@ p {
 	left: 0;
 	width: 100%;
 	height: calc(100% + 75px);
-	background: #fff;
-	box-shadow: 0px 16px 32px 0px rgba(255, 147, 196, 0.3);
+	background: transparent;
+	box-shadow: 0px 16px 32px 0px rgba(21, 18, 209, 0.3);
 	z-index: -1;
 	visibility: hidden;
 	opacity: 0;

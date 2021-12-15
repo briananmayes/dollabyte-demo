@@ -1,9 +1,18 @@
 import { Component, OnInit } from '@angular/core';
+import { trigger, state, style, transition, animate, group } from '@angular/animations';
 
 @Component({
   selector: 'app-utility',
   templateUrl: './utility.component.html',
-  styleUrls: ['./utility.component.css']
+  styleUrls: ['./utility.component.css'],
+  animations: [
+    trigger('fade', [
+      transition('void => *', [
+        style({ opacity: 0}),
+        animate(2000, style({opacity: 1}))
+      ])
+    ])
+  ]
 })
 export class UtilityComponent implements OnInit {
 
@@ -35,6 +44,34 @@ export class UtilityComponent implements OnInit {
   ]
 
   ngOnInit(): void {
+    const faders = document.querySelectorAll('.fade-in');
+    const sliders = document.querySelectorAll('.slide-in');
+
+const appearOptions = {
+  threshold: 0.5                                                                                                                                                                                      
+};
+
+const appearOnScroll = new IntersectionObserver(
+    function(entries, appearOnScroll) {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) {
+                return
+            } else {
+                entry.target.classList.add('appear');
+                appearOnScroll.unobserve(entry.target);
+            }
+        });
+    }, 
+    appearOptions
+);
+
+faders.forEach(fader => appearOnScroll.observe(fader));
+
+sliders.forEach(slider => {
+  appearOnScroll.observe(slider);
+});
+
   }
 
-}
+  }
+

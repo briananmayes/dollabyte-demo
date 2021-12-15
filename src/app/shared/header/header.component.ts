@@ -1,5 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, HostListener, Inject, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -8,8 +9,10 @@ import { Component, HostListener, Inject, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(@Inject(DOCUMENT) _document:any) { }
-  // Navigation
+  constructor(@Inject(DOCUMENT) _document:any, 
+              private router: Router) { }
+  
+              // Navigation
   navMethod: boolean = true;
   toggleNav() {
     this.navMethod = !this.navMethod;
@@ -41,6 +44,60 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.detectHeader();
+
+    const header = document.querySelector("header");
+    const sectionOne = document.querySelector(".home-intro");
+
+    const sectionOneOptions = {
+      rootMargin: "-200px 0px 0px 0px"
+    };
+    
+    const sectionOneObserver = new IntersectionObserver(function(
+      entries,
+      sectionOneObserver
+    ) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+          header.classList.add("nav-scrolled");
+        } else {
+          header.classList.remove("nav-scrolled");
+        }
+      });
+    },
+    sectionOneOptions);
+    
+    sectionOneObserver.observe(sectionOne);
+
+  }
+
+  navigateToAbout(): void {
+    this.router.navigate(['/']).then(() => {
+      window.location.hash='about-dollabyte'
+    });
+  }
+
+  navigateToArthur(): void {
+    this.router.navigate(['/']).then(() => {
+      window.location.hash='about-arthur'
+    });
+  }
+
+  navigateToUtility(): void {
+    this.router.navigate(['/']).then(() => {
+      window.location.hash='utility'
+    });
+  }
+
+  navigateToRoadmap(): void {
+    this.router.navigate(['/']).then(() => {
+      window.location.hash='roadmap'
+    });
+  }
+
+  navigateToTeam(): void {
+    this.router.navigate(['/']).then(() => {
+      window.location.hash='team'
+    });
   }
 
 }

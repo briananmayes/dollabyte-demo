@@ -1,9 +1,29 @@
-<!-- code used from Ovent template-->
-<section class="team-area-v2 pt-120 pb-120">
+<!-- <section>
+    <div class="about container fluid">
+        <div class="row fade-in">
+            <h1>DOLLABYTE UTILITY</h1>
+        </div>
+        <div class="row">
+        <div class="col-lg-4" *ngFor="let item of utility;let i = index">
+                <div class="icon">
+                    <img [src]="item.url" [alt]="item.title" class="img-fluid">
+                </div>
+                <h3 class="title">{{item.title}}</h3>
+                <p>{{item.text}}</p>
+            
+        </div>
+
+        </div>
+    </div>
+</section> -->
+
+
+<!-- code used from Ovent template -->
+<section class="team-area-v2 pt-120 pb-120" id="utility">
 <div class="team-sub">
     <div class="container">
         <div class="row">
-            <h1>DOLLABYTE UTILITY</h1>
+            <h1 @fade class="slide-in from-right">DOLLABYTE UTILITY</h1>
             <div class="col-lg-4 utility-card" *ngFor="let item of utility;let i = index">
                 <div class="team-sub-item text-center item-{{1+i}}">
                     <div class="icon">
@@ -16,4 +36,4 @@
         </div>
     </div>
 </div>
-</section>
+</section> 

@@ -1,36 +1,37 @@
+
 <header class="header-area header-area-v1">
     <div class="header-navigation" id="sticky-header">
-        <div class="container custom-container">
             <div class="nav-container d-flex align-items-center justify-content-between" [ngClass]="visible ? '' : 'breakpoint-on'" (window:resize)="detectHeader()">
-                <!-- site logo -->
+                
                 <div class="brand_logo">
                     <a routerLink="/"><img src="../../assets/images/dollabyte-logo-v2.png" class="img-fluid logo" alt=""></a>
+                    <span>DollaByte</span>
                 </div>
                 <div class="nav-menu" [ngClass]="navMethod ? '' : 'menu-on'">
-                    <!-- Navbar Close Icon -->
+                    
                     <div class="navbar-close"  (click)="toggleNav()">
                         <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                     </div>
-                    <!-- nav-menu -->
+                    
                     <nav class="main-menu">
                         <ul>
                             <li class="menu-item">
                                 <a href="#">Home</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link" (click)="navigateToAbout()">About</a>
                                     </li>
                             <li class="menu-item">
-                                <a class="nav-link" href="#">Arthur</a>
+                                <a class="nav-link" (click)="navigateToArthur()">Arthur</a>
                             </li>
                             <li class="menu-item">
-                                <a class="nav-link" href="#">Utility</a>
+                                <a class="nav-link" (click)="navigateToUtility()">Utility</a>
                                 </li>
                             <li class="menu-item">
-                                <a class="nav-link" href="#">Roadmap</a>
+                                <a class="nav-link" (click)="navigateToRoadmap()">Roadmap</a>
                             </li>
                             <li class="menu-item">
-                                <a class="nav-link" href="#">Team</a>
+                                <a class="nav-link" (click)="navigateToTeam()">Team</a>
                                 </li>
                         </ul>
                     </nav>
@@ -45,11 +46,49 @@
                         <a class="main-btn" routerLink="/contact"><i class="fal fa-ticket"></i> Connect Wallet</a>
                     </div>
                 </div>
-                <!-- Navbar Toggler -->
+              
                 <div class="navbar-toggler" [ngClass]="navMethod ? '' : 'active'" (click)="toggleNav()">
                     <span></span><span></span><span></span>
                 </div>
             </div>
         </div>
-    </div>
-</header>
+
+</header> 
+
+<!--
+<header>
+    <a href="#" class="site-logo" aria-label="homepage">
+        <img src="../../assets/images/dollabyte-logo-v2.png" class="img-fluid logo" alt="">
+    </a>
+      <nav class="main-nav">
+        <ul class="nav__list">
+          <li class="nav__list-item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link" (click)="navigateToAbout()">About</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link" (click)="navigateToArthur()">Arthur</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link" (click)="navigateToUtility()">Utility</a>
+          </li>
+          <li class="nav__list-item">
+              <a href="#" class="nav__link" (click)="navigateToRoadmap()">Roadmap</a>
+            </li>
+            <li class="nav__list-item">
+                <a href="#" class="nav__link" (click)="navigateToTeam()">Team</a>
+              </li>
+        </ul>
+      </nav>
+      <nav class="account">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a
+              class="nav__link nav__link--btn nav__link--btn--highlight"
+              href="#"
+              >Connect Wallet</a
+            >
+          </li>
+        </ul>
+      </nav>
+</header> -->
