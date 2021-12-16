@@ -14,7 +14,7 @@
 }
 
 .timeline {
-    width: 80%;
+    width: min-content;
     height: auto;
     max-width: 800px;
     margin: 0 auto;
@@ -73,7 +73,21 @@
     transform: translateX(30px);
 }
 
-@media only screen and (max-width: 925px) {
+@media only screen and (max-width: 991px) {
+    .timeline ul li:nth-child(odd) {
+        float: left;
+        clear: right;
+        transform: translateX(-90px);
+    }
+    
+    .timeline ul li:nth-child(even) {
+        float: right;
+        clear: left;
+        transform: translateX(90px);
+    }
+    
+}
+@media only screen and (min-width: 991px) {
     .timeline ul li:nth-child(odd) {
         float: left;
         clear: right;
@@ -105,5 +119,29 @@
 .timeline ul li:nth-child(even)::after {
     transform: translate(50%, 50%);
     left: 25px;
+}
+
+@media only screen and (max-width: 991px) {
+    .timeline ul li:nth-child(odd)::after {
+        transform: translate(50%, 50%);
+        right: 7px;
+    }
+    .timeline ul li:nth-child(even)::after {
+        transform: translate(50%, 50%);
+        left: -17px;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
+    .timeline ul li:nth-child(odd)::after {
+        transform: translate(50%, 50%);
+        right: 8px;
+    }
+    .timeline ul li:nth-child(even)::after {
+        transform: translate(50%, 50%);
+        left: -18px;
+    }
+    
 }
 
