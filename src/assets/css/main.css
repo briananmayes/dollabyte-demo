@@ -207,6 +207,7 @@ body {
 .logo {
   width: 25px;
   height: 25px;
+  box-shadow: none;
 }
 span {
   padding-left: 10px;

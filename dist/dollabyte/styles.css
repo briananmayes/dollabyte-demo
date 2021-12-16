@@ -12501,7 +12501,6 @@ p {
 	background-color: rgba(0, 6, 55, 0.502);
 }
 .footer-area-v1 .footer-content-area .content-box {
-	padding-bottom: 60px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .footer-area-v1 .footer-content-area .content-box img {
@@ -13108,6 +13107,7 @@ header {
 .logo {
   width: 25px;
   height: 25px;
+  box-shadow: none;
 }
 
 span {

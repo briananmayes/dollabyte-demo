@@ -5,8 +5,7 @@
           background-blend-mode: lighten;
 }
 .about-img {
-    border-radius: 50%;
-    border: 1px solid white;
+    max-width: 350px;
 }
 
 .about-links, .articles, .videos {
