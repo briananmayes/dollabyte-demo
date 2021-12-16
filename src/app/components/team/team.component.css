@@ -1,7 +1,7 @@
 .team-area-v2 {
     background-image: linear-gradient(rgb(29, 29, 59), rgb(45, 45, 59)), url("../../../assets/images/LT_0001_RR-copy.png"), url("../../../assets/images/LT_0002_L-copy.png");
 	background-size: contain;
-	background-repeat: repeat-y;
+	background-repeat: repeat;
 	background-blend-mode: lighten;
     text-align: center;
 }

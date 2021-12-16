@@ -182,7 +182,7 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: [".about-area-v1[_ngcontent-%COMP%] {\n        background-image: linear-gradient(rgb(45, 45, 59), rgb(29, 29, 59)), url('LT_0001_RR-copy.png'), url('LT_0002_L-copy.png');\n          background-size: contain, contain, contain;\n          background-repeat: repeat-y;\n          background-blend-mode: lighten;\n}\n.about-img[_ngcontent-%COMP%] {\n    max-width: 350px;\n}\n.about-links[_ngcontent-%COMP%], .articles[_ngcontent-%COMP%], .videos[_ngcontent-%COMP%] {\n    text-align: center;\n}\n.col-title[_ngcontent-%COMP%] {\n    text-align: center;\n}\n.row[_ngcontent-%COMP%] {\n    padding-top: 10px;\n    padding-bottom: 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFib3V0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7UUFDUSwwSEFBeUs7VUFDdkssMENBQTBDO1VBQzFDLDJCQUEyQjtVQUMzQiw4QkFBOEI7QUFDeEM7QUFDQTtJQUNJLGdCQUFnQjtBQUNwQjtBQUVBO0lBQ0ksa0JBQWtCO0FBQ3RCO0FBQ0E7SUFDSSxrQkFBa0I7QUFDdEI7QUFFQTtJQUNJLGlCQUFpQjtJQUNqQixvQkFBb0I7QUFDeEIiLCJmaWxlIjoiYWJvdXQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5hYm91dC1hcmVhLXYxIHtcbiAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHJnYig0NSwgNDUsIDU5KSwgcmdiKDI5LCAyOSwgNTkpKSwgdXJsKFwiLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy9MVF8wMDAxX1JSLWNvcHkucG5nXCIpLCB1cmwoXCIuLi8uLi8uLi9hc3NldHMvaW1hZ2VzLy9MVF8wMDAyX0wtY29weS5wbmdcIik7XG4gICAgICAgICAgYmFja2dyb3VuZC1zaXplOiBjb250YWluLCBjb250YWluLCBjb250YWluO1xuICAgICAgICAgIGJhY2tncm91bmQtcmVwZWF0OiByZXBlYXQteTtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWJsZW5kLW1vZGU6IGxpZ2h0ZW47XG59XG4uYWJvdXQtaW1nIHtcbiAgICBtYXgtd2lkdGg6IDM1MHB4O1xufVxuXG4uYWJvdXQtbGlua3MsIC5hcnRpY2xlcywgLnZpZGVvcyB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuLmNvbC10aXRsZSB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4ucm93IHtcbiAgICBwYWRkaW5nLXRvcDogMTBweDtcbiAgICBwYWRkaW5nLWJvdHRvbTogMTBweDtcbn1cblxuIl19 */"] });
+    } }, styles: [".about-area-v1[_ngcontent-%COMP%] {\n        background-image: linear-gradient(rgb(45, 45, 59), rgb(29, 29, 59)), url('LT_0007_L.png');\n          background-size: contain;\n          background-repeat: no-repeat;\n          background-blend-mode: lighten;\n}\n.about-img[_ngcontent-%COMP%] {\n    max-width: 350px;\n}\n.about-links[_ngcontent-%COMP%], .articles[_ngcontent-%COMP%], .videos[_ngcontent-%COMP%] {\n    text-align: center;\n}\n.col-title[_ngcontent-%COMP%] {\n    text-align: center;\n}\n.row[_ngcontent-%COMP%] {\n    padding-top: 10px;\n    padding-bottom: 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFib3V0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7UUFDUSx5RkFBZ0g7VUFDOUcsd0JBQXdCO1VBQ3hCLDRCQUE0QjtVQUM1Qiw4QkFBOEI7QUFDeEM7QUFDQTtJQUNJLGdCQUFnQjtBQUNwQjtBQUVBO0lBQ0ksa0JBQWtCO0FBQ3RCO0FBQ0E7SUFDSSxrQkFBa0I7QUFDdEI7QUFFQTtJQUNJLGlCQUFpQjtJQUNqQixvQkFBb0I7QUFDeEIiLCJmaWxlIjoiYWJvdXQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5hYm91dC1hcmVhLXYxIHtcbiAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHJnYig0NSwgNDUsIDU5KSwgcmdiKDI5LCAyOSwgNTkpKSwgdXJsKFwiLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy9MVF8wMDA3X0wucG5nXCIpO1xuICAgICAgICAgIGJhY2tncm91bmQtc2l6ZTogY29udGFpbjtcbiAgICAgICAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgICAgICAgIGJhY2tncm91bmQtYmxlbmQtbW9kZTogbGlnaHRlbjtcbn1cbi5hYm91dC1pbWcge1xuICAgIG1heC13aWR0aDogMzUwcHg7XG59XG5cbi5hYm91dC1saW5rcywgLmFydGljbGVzLCAudmlkZW9zIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG4uY29sLXRpdGxlIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5yb3cge1xuICAgIHBhZGRpbmctdG9wOiAxMHB4O1xuICAgIHBhZGRpbmctYm90dG9tOiAxMHB4O1xufVxuXG4iXX0= */"] });
 
 
 /***/ }),
@@ -219,6 +219,7 @@ __webpack_require__.r(__webpack_exports__);
 class HeaderComponent {
     constructor(_document, router) {
         this.router = router;
+        this.showNav = false;
         // Navigation
         this.navMethod = true;
         // Mobile 
@@ -235,9 +236,13 @@ class HeaderComponent {
     }
     // Sticky Header
     onWindowScroll(_e) {
-        if (window.pageYOffset > 110) {
+        if (window.pageYOffset > 90) {
+            this.showNav = true;
             let element = document.getElementById('sticky-header');
             element.classList.add('sticky');
+        }
+        else if (window.pageYOffset == 0) {
+            this.showNav = false;
         }
         else {
             let element = document.getElementById('sticky-header');
@@ -390,7 +395,7 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", ctx.visible ? "" : "d-none");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", ctx.navMethod ? "" : "active");
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["NgClass"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJoZWFkZXIuY29tcG9uZW50LmNzcyJ9 */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["NgClass"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"]], styles: ["div.header-navigtion.sticky[_ngcontent-%COMP%]{\n    box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 4%);\n    -webkit-animation: sticky 1.2s;\n            animation: sticky 1.2s;\n}\nh1[_ngcontent-%COMP%] {\n    vertical-align: middle;\n    padding: 24px 0 0 0;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhlYWRlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksMkNBQTJDO0lBQzNDLDhCQUFzQjtZQUF0QixzQkFBc0I7QUFDMUI7QUFDQTtJQUNJLHNCQUFzQjtJQUN0QixtQkFBbUI7QUFDdkIiLCJmaWxlIjoiaGVhZGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYuaGVhZGVyLW5hdmlndGlvbi5zdGlja3l7XG4gICAgYm94LXNoYWRvdzogMHB4IDVweCA1cHggMHB4IHJnYigwIDAgMCAvIDQlKTtcbiAgICBhbmltYXRpb246IHN0aWNreSAxLjJzO1xufVxuaDEge1xuICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XG4gICAgcGFkZGluZzogMjRweCAwIDAgMDtcbn0iXX0= */"] });
 
 
 /***/ }),
@@ -434,8 +439,8 @@ const environment = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _components_banner_banner_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/banner/banner.component */ "XRsc");
-/* harmony import */ var _shared_header_header_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./shared/header/header.component */ "320Y");
+/* harmony import */ var _shared_header_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/header/header.component */ "320Y");
+/* harmony import */ var _components_banner_banner_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/banner/banner.component */ "XRsc");
 /* harmony import */ var _components_dollabyte_dollabyte_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/dollabyte/dollabyte.component */ "wYW1");
 /* harmony import */ var _components_utility_utility_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/utility/utility.component */ "TbFD");
 /* harmony import */ var _components_roadmap_roadmap_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/roadmap/roadmap.component */ "c+sx");
@@ -459,8 +464,8 @@ class AppComponent {
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
 AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 8, vars: 1, consts: [[3, "layout"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-banner");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-header");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-header");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-banner");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-dollabyte");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-utility");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-roadmap");
@@ -470,7 +475,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("layout", ctx.classname);
-    } }, directives: [_components_banner_banner_component__WEBPACK_IMPORTED_MODULE_1__["BannerComponent"], _shared_header_header_component__WEBPACK_IMPORTED_MODULE_2__["HeaderComponent"], _components_dollabyte_dollabyte_component__WEBPACK_IMPORTED_MODULE_3__["DollabyteComponent"], _components_utility_utility_component__WEBPACK_IMPORTED_MODULE_4__["UtilityComponent"], _components_roadmap_roadmap_component__WEBPACK_IMPORTED_MODULE_5__["RoadmapComponent"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_6__["AboutComponent"], _components_team_team_component__WEBPACK_IMPORTED_MODULE_7__["TeamComponent"], _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"]], styles: [".banner[_ngcontent-%COMP%] {\n    text-align: center;\n}\n\n\n\n\n\na.nav-link[_ngcontent-%COMP%]{\n    text-align: right;\n}\n\n\n.dollabyte[_ngcontent-%COMP%]{\n    -webkit-animation: fadeIn 10s ease;\n            animation: fadeIn 10s ease;\n}\n\n\nimg[_ngcontent-%COMP%] {\n    max-width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksa0JBQWtCO0FBQ3RCOzs7QUFHQSxlQUFlOzs7QUFDZjtJQUNJLGlCQUFpQjtBQUNyQjs7O0FBQ0E7SUFDSSxrQ0FBMEI7WUFBMUIsMEJBQTBCO0FBQzlCOzs7QUFFQTtJQUNJLGVBQWU7QUFDbkIiLCJmaWxlIjoiYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYmFubmVyIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cblxuLyogTmF2aWdhdGlvbiAqL1xuYS5uYXYtbGlua3tcbiAgICB0ZXh0LWFsaWduOiByaWdodDtcbn1cbi5kb2xsYWJ5dGV7XG4gICAgYW5pbWF0aW9uOiBmYWRlSW4gMTBzIGVhc2U7XG59XG5cbmltZyB7XG4gICAgbWF4LXdpZHRoOiAxMDAlO1xufSJdfQ== */"] });
+    } }, directives: [_shared_header_header_component__WEBPACK_IMPORTED_MODULE_1__["HeaderComponent"], _components_banner_banner_component__WEBPACK_IMPORTED_MODULE_2__["BannerComponent"], _components_dollabyte_dollabyte_component__WEBPACK_IMPORTED_MODULE_3__["DollabyteComponent"], _components_utility_utility_component__WEBPACK_IMPORTED_MODULE_4__["UtilityComponent"], _components_roadmap_roadmap_component__WEBPACK_IMPORTED_MODULE_5__["RoadmapComponent"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_6__["AboutComponent"], _components_team_team_component__WEBPACK_IMPORTED_MODULE_7__["TeamComponent"], _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"]], styles: [".banner[_ngcontent-%COMP%] {\n    text-align: center;\n}\n\n\n\n\n\na.nav-link[_ngcontent-%COMP%]{\n    text-align: right;\n}\n\n\n.dollabyte[_ngcontent-%COMP%]{\n    -webkit-animation: fadeIn 10s ease;\n            animation: fadeIn 10s ease;\n}\n\n\nimg[_ngcontent-%COMP%] {\n    max-width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksa0JBQWtCO0FBQ3RCOzs7QUFHQSxlQUFlOzs7QUFDZjtJQUNJLGlCQUFpQjtBQUNyQjs7O0FBQ0E7SUFDSSxrQ0FBMEI7WUFBMUIsMEJBQTBCO0FBQzlCOzs7QUFFQTtJQUNJLGVBQWU7QUFDbkIiLCJmaWxlIjoiYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYmFubmVyIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cblxuLyogTmF2aWdhdGlvbiAqL1xuYS5uYXYtbGlua3tcbiAgICB0ZXh0LWFsaWduOiByaWdodDtcbn1cbi5kb2xsYWJ5dGV7XG4gICAgYW5pbWF0aW9uOiBmYWRlSW4gMTBzIGVhc2U7XG59XG5cbmltZyB7XG4gICAgbWF4LXdpZHRoOiAxMDAlO1xufSJdfQ== */"] });
 
 
 /***/ }),
@@ -606,7 +611,7 @@ UtilityComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineC
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("@fade", undefined);
-    } }, styles: [".team-area-v2[_ngcontent-%COMP%] {\n    background-image: linear-gradient(rgb(45, 45, 59), rgb(29, 29, 59)), url('LT_0001_RR-copy.png'), url('LT_0002_L-copy.png');\n\tbackground-size: contain;\n\tbackground-repeat: repeat-y;\n\tbackground-blend-mode: lighten;\n    text-align: center;\n}\n\n.container[_ngcontent-%COMP%] {\n    align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInV0aWxpdHkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLDBIQUF3SztDQUMzSyx3QkFBd0I7Q0FDeEIsMkJBQTJCO0NBQzNCLDhCQUE4QjtJQUMzQixrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxtQkFBbUI7QUFDdkIiLCJmaWxlIjoidXRpbGl0eS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRlYW0tYXJlYS12MiB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHJnYig0NSwgNDUsIDU5KSwgcmdiKDI5LCAyOSwgNTkpKSwgdXJsKFwiLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy9MVF8wMDAxX1JSLWNvcHkucG5nXCIpLCB1cmwoXCIuLi8uLi8uLi9hc3NldHMvaW1hZ2VzL0xUXzAwMDJfTC1jb3B5LnBuZ1wiKTtcblx0YmFja2dyb3VuZC1zaXplOiBjb250YWluO1xuXHRiYWNrZ3JvdW5kLXJlcGVhdDogcmVwZWF0LXk7XG5cdGJhY2tncm91bmQtYmxlbmQtbW9kZTogbGlnaHRlbjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5jb250YWluZXIge1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG4iXX0= */"], data: { animation: [
+    } }, styles: [".team-area-v2[_ngcontent-%COMP%] {\n    background-image: linear-gradient(rgb(45, 45, 59), rgb(29, 29, 59)), url('LT_0001_RR-copy.png'), url('LT_0002_L-copy.png');\n\tbackground-size: contain;\n\tbackground-repeat: repeat-x;\n\tbackground-blend-mode: lighten;\n    text-align: center;\n}\n\n.container[_ngcontent-%COMP%] {\n    align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInV0aWxpdHkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLDBIQUF3SztDQUMzSyx3QkFBd0I7Q0FDeEIsMkJBQTJCO0NBQzNCLDhCQUE4QjtJQUMzQixrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxtQkFBbUI7QUFDdkIiLCJmaWxlIjoidXRpbGl0eS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRlYW0tYXJlYS12MiB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHJnYig0NSwgNDUsIDU5KSwgcmdiKDI5LCAyOSwgNTkpKSwgdXJsKFwiLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy9MVF8wMDAxX1JSLWNvcHkucG5nXCIpLCB1cmwoXCIuLi8uLi8uLi9hc3NldHMvaW1hZ2VzL0xUXzAwMDJfTC1jb3B5LnBuZ1wiKTtcblx0YmFja2dyb3VuZC1zaXplOiBjb250YWluO1xuXHRiYWNrZ3JvdW5kLXJlcGVhdDogcmVwZWF0LXg7XG5cdGJhY2tncm91bmQtYmxlbmQtbW9kZTogbGlnaHRlbjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5jb250YWluZXIge1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG4iXX0= */"], data: { animation: [
             Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["trigger"])('fade', [
                 Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])('void => *', [
                     Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ opacity: 0 }),
@@ -628,7 +633,9 @@ UtilityComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineC
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BannerComponent", function() { return BannerComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/animations */ "R0Ic");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
 
 class BannerComponent {
     constructor() { }
@@ -636,42 +643,45 @@ class BannerComponent {
     }
 }
 BannerComponent.ɵfac = function BannerComponent_Factory(t) { return new (t || BannerComponent)(); };
-BannerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BannerComponent, selectors: [["app-banner"]], decls: 21, vars: 0, consts: [[1, "banner-area-v1"], [1, "row"], [1, "col-lg-12"], [1, "banner-content", "text-center"], [1, "row", "justify-content-center", "pb-10"], [1, "col-lg-3", "col-md-6", "col-sm-12"], ["href", "#", 1, "main-btn", "twitter", "fade-in"], [1, "fab", "fa-twitter"], ["href", "#", 1, "main-btn", "discord", "fade-in"], [1, "fab", "fa-discord"], ["href", "#", 1, "main-btn", "fade-in"], [1, "fal", "fa-angle-right"]], template: function BannerComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Arthur J Williams Jr Presents: DOLLABYTE");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "World Famous Currency Artist ARTHUR J WILLIAMS JR launches his 1st NFT Project.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "i", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Follow us");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "i", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Join our Discord");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "i", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Join the Whitelist");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["body[_ngcontent-%COMP%] {\n    background-image: url('Layer1.png');\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJhbm5lci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUNBQTBEO0FBQzlEIiwiZmlsZSI6ImJhbm5lci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCcuLi8uLi8uLi9hc3NldHMvaW1hZ2VzL0xheWVyMS5wbmcnKTtcbn0iXX0= */"] });
+BannerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: BannerComponent, selectors: [["app-banner"]], decls: 19, vars: 0, consts: [[1, "banner-area-v1", "se-pre-con"], [1, "banner-content", "text-center"], [1, "row", "justify-content-center", "pb-10"], [1, "col-lg-3", "col-md-6", "col-sm-12"], ["href", "#", 1, "main-btn", "twitter", "fade-in"], [1, "fab", "fa-twitter"], ["href", "#", 1, "main-btn", "discord", "fade-in"], [1, "fab", "fa-discord"], ["href", "#", 1, "main-btn", "fade-in"], [1, "fal", "fa-angle-right"]], template: function BannerComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "Arthur J Williams Jr Presents: DOLLABYTE");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, "World Famous Currency Artist ARTHUR J WILLIAMS JR launches his 1st NFT Project.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](9, "i", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "Follow us");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](13, "i", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14, "Join our Discord");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](17, "i", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](18, "Join the Whitelist");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    } }, styles: [".banner-area-v1[_ngcontent-%COMP%] {\n    background-image: linear-gradient(rgb(45, 45, 59), rgb(29, 29, 59)), url('LT_0001_RR-copy.png'), url('LT_0002_L-copy.png');\n\tbackground-size: contain;\n\tbackground-repeat: repeat-x;\n\tbackground-blend-mode: lighten;\n    text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJhbm5lci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksMEhBQXdLO0NBQzNLLHdCQUF3QjtDQUN4QiwyQkFBMkI7Q0FDM0IsOEJBQThCO0lBQzNCLGtCQUFrQjtBQUN0QiIsImZpbGUiOiJiYW5uZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5iYW5uZXItYXJlYS12MSB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHJnYig0NSwgNDUsIDU5KSwgcmdiKDI5LCAyOSwgNTkpKSwgdXJsKFwiLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy9MVF8wMDAxX1JSLWNvcHkucG5nXCIpLCB1cmwoXCIuLi8uLi8uLi9hc3NldHMvaW1hZ2VzL0xUXzAwMDJfTC1jb3B5LnBuZ1wiKTtcblx0YmFja2dyb3VuZC1zaXplOiBjb250YWluO1xuXHRiYWNrZ3JvdW5kLXJlcGVhdDogcmVwZWF0LXg7XG5cdGJhY2tncm91bmQtYmxlbmQtbW9kZTogbGlnaHRlbjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59Il19 */"], data: { animation: [
+            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["trigger"])('fade', [
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])('void => *', [
+                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ opacity: 0 }),
+                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])(2000, Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ opacity: 1 }))
+                ])
+            ])
+        ] } });
 
 
 /***/ }),
@@ -851,7 +861,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], inputs: { layout: "layout" }, decls: 30, vars: 2, consts: [[1, "container"], [1, "footer-content-area", "text-center"], [1, "row", "justify-content-center"], [1, "col-lg-8"], [1, "content-box"], ["src", "../../assets/images/Final DollaByte NFT.gif", "alt", "NFT"], [1, "col-lg-3", "col-md-6", "col-sm-12"], ["href", "#", 1, "main-btn", "twitter", "fade-in"], [1, "fab", "fa-twitter"], ["href", "#", 1, "main-btn", "discord", "fade-in"], [1, "fab", "fa-discord"], ["href", "#", 1, "main-btn", "fade-in"], [1, "fal", "fa-angle-right"], [1, "social-box"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], inputs: { layout: "layout" }, decls: 30, vars: 2, consts: [[1, "container"], [1, "footer-content-area", "text-center"], [1, "row", "justify-content-center"], [1, "col-lg-3"], [1, "content-box"], ["src", "../../assets/images/Final DollaByte NFT.gif", "alt", "NFT"], [1, "row", "justify-content-left"], [1, "col-lg-3", "col-md-6", "col-sm-12"], ["href", "#", 1, "main-btn", "twitter", "fade-in"], [1, "fab", "fa-twitter"], ["href", "#", 1, "main-btn", "discord", "fade-in"], [1, "fab", "fa-discord"], ["href", "#", 1, "main-btn", "fade-in"], [1, "fal", "fa-angle-right"], [1, "social-box"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
@@ -862,38 +872,38 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Join the club");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "i", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "i", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Follow us");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "i", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "i", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Join our Discord");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "i", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "i", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Join the Whitelist");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "span");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Copyright \u00A9 2021");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Idea by Arthur J Williams Jr | Designed & Developed By Jaser Akuly");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Idea by Arthur J Williams Jr | Designed & Developed By Briana Mayes");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -903,7 +913,7 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.layout);
-    } }, styles: ["footer[_ngcontent-%COMP%] {\n    background-image: linear-gradient(rgb(45, 45, 59), rgb(29, 29, 59)), url('LT_0001_RR-copy.png'), url('LT_0002_L-copy.png');\n\tbackground-size: contain, contain, contain;\n\tbackground-repeat: repeat-y;\n\tbackground-blend-mode: lighten;\n}\nspan[_ngcontent-%COMP%] {\n    margin-bottom: 30px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksMEhBQXlLO0NBQzVLLDBDQUEwQztDQUMxQywyQkFBMkI7Q0FDM0IsOEJBQThCO0FBQy9CO0FBQ0E7SUFDSSxtQkFBbUI7QUFDdkIiLCJmaWxlIjoiZm9vdGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJmb290ZXIge1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudChyZ2IoNDUsIDQ1LCA1OSksIHJnYigyOSwgMjksIDU5KSksIHVybChcIi4uLy4uLy4uL2Fzc2V0cy9pbWFnZXMvTFRfMDAwMV9SUi1jb3B5LnBuZ1wiKSwgdXJsKFwiLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy8vTFRfMDAwMl9MLWNvcHkucG5nXCIpO1xuXHRiYWNrZ3JvdW5kLXNpemU6IGNvbnRhaW4sIGNvbnRhaW4sIGNvbnRhaW47XG5cdGJhY2tncm91bmQtcmVwZWF0OiByZXBlYXQteTtcblx0YmFja2dyb3VuZC1ibGVuZC1tb2RlOiBsaWdodGVuO1xufVxuc3BhbiB7XG4gICAgbWFyZ2luLWJvdHRvbTogMzBweDtcbn1cbiJdfQ== */"] });
+    } }, styles: ["footer[_ngcontent-%COMP%] {\n    background-image: linear-gradient(rgb(45, 45, 59), rgb(29, 29, 59));\n\tbackground-size: contain, contain, contain;\n\tbackground-repeat: repeat-y;\n\tbackground-blend-mode: lighten;\n}\nspan[_ngcontent-%COMP%] {\n    margin-bottom: 30px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUVBQW1FO0NBQ3RFLDBDQUEwQztDQUMxQywyQkFBMkI7Q0FDM0IsOEJBQThCO0FBQy9CO0FBQ0E7SUFDSSxtQkFBbUI7QUFDdkIiLCJmaWxlIjoiZm9vdGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJmb290ZXIge1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudChyZ2IoNDUsIDQ1LCA1OSksIHJnYigyOSwgMjksIDU5KSk7XG5cdGJhY2tncm91bmQtc2l6ZTogY29udGFpbiwgY29udGFpbiwgY29udGFpbjtcblx0YmFja2dyb3VuZC1yZXBlYXQ6IHJlcGVhdC15O1xuXHRiYWNrZ3JvdW5kLWJsZW5kLW1vZGU6IGxpZ2h0ZW47XG59XG5zcGFuIHtcbiAgICBtYXJnaW4tYm90dG9tOiAzMHB4O1xufVxuIl19 */"] });
 
 
 /***/ }),
@@ -924,7 +934,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class DollabyteComponent {
     constructor() { }
-    ngOnInit() {
+    ngAfterViewInit() {
         const faders = document.querySelectorAll('.fade-in');
         const sliders = document.querySelectorAll('.slide-in');
         const appearOptions = {
@@ -949,7 +959,7 @@ class DollabyteComponent {
     }
 }
 DollabyteComponent.ɵfac = function DollabyteComponent_Factory(t) { return new (t || DollabyteComponent)(); };
-DollabyteComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: DollabyteComponent, selectors: [["app-dollabyte"]], decls: 33, vars: 3, consts: [["id", "about-dollabyte", 1, "team-area-v2", "pt-50", "pb-55", "pl-40", "pr-40"], [1, "team-sub"], [1, "container"], [1, "row"], [1, "section-title", "section-title-1"], [1, "col-lg-6", "col-md-6", "col-sm-12", "fade-in", "img-col"], [1, "ovent-img", "slide-in", "from-left"], ["src", "../../assets/images/dollabyte-logo-v2.png", "alt", "", 1, "img-fluid", "about-dollabyte-img"], [1, "col-lg-6", "col-md-6", "col-sm-12", "fade-in"], [1, "ovent-content-box"], [1, "logo-text", "slide-in", "from-right"], [1, "col-lg-12", "col-md-16", "col-sm-12"], [1, "slide-in", "from-left"]], template: function DollabyteComponent_Template(rf, ctx) { if (rf & 1) {
+DollabyteComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: DollabyteComponent, selectors: [["app-dollabyte"]], decls: 33, vars: 3, consts: [["id", "about-dollabyte", 1, "team-area-v2", "pt-50", "pb-55", "pl-40", "pr-40"], [1, "team-sub"], [1, "container"], [1, "row"], [1, "section-title", "section-title-1"], [1, "col-lg-6", "col-md-6", "col-sm-12", "fade-in", "img-col"], [1, "ovent-img", "slide-in", "from-left"], ["src", "../../assets/images/dollabyte-logo-v2.png", "alt", "", 1, "img-fluid", "about-dollabyte-img"], [1, "col-lg-5", "col-md-6", "col-sm-12", "fade-in"], [1, "ovent-content-box"], [1, "logo-text", "slide-in", "from-right"], [1, "col-lg-12", "col-md-16", "col-sm-12"], [1, "slide-in", "from-left"], [1, "slide-in", "from-right"]], template: function DollabyteComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 2);
@@ -960,7 +970,7 @@ DollabyteComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "WHAT IS");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "h2");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, "DOLLABYTE");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, "DOLLABYTE?");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -988,16 +998,16 @@ DollabyteComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](24, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "h3", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](27, "b");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](28, "The NFT Breakdown");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](29, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](29, "p", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](30, "This is an animated NFT built with the concept of cryptography in mind. Think inside the $100 bill each components of what it takes to operate. That value no longer has the same value. Blockchain has allowed cryptocurrencies and the real world art to come and hold value all on the same bill. The signature of the famous creators, the unique math based serial number, the value of both the cryptocurrency and art on either side now shows the real value of the $100 Bill.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](31, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](31, "p", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](32, "Each digitally generated and by the Treasury of the Metaverse Arthur J Williams Jr.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -1013,7 +1023,7 @@ DollabyteComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("@fade", undefined);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](21);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("@fade", undefined);
-    } }, styles: [".team-area-v2[_ngcontent-%COMP%] {\n  background-image: linear-gradient(rgb(29, 29, 59), rgb(45, 45, 59)), url('LT_0001_RR-copy.png'), url('LT_0002_L-copy.png');\n\tbackground-size: contain;\n\tbackground-repeat: repeat-y;\n\tbackground-blend-mode: lighten;\n}\n\n.about-dollabyte-img[_ngcontent-%COMP%] {\n    max-width: 50%;\n    box-shadow: 2px 5px 8px rgba(117, 112, 112, 0.1);\n    padding: 0px;\n    margin: 50px 0px;   \n}\n\n@media only screen and (max-width: 991px) {\n  .about-dollabyte-img[_ngcontent-%COMP%] {\n  max-width: 100%;\n  }\n}\n\np[_ngcontent-%COMP%] {\n  color: #fff;\n  padding-bottom: 15px;\n}\n\n\n\n.rotate[_ngcontent-%COMP%] {\n    -webkit-animation: rotation 5s;\n            animation: rotation 5s;\n  }\n\n.linear[_ngcontent-%COMP%] {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n  }\n\n.infinite[_ngcontent-%COMP%] {\n    -webkit-animation-iteration-count: infinite;\n            animation-iteration-count: infinite;\n  }\n\n@-webkit-keyframes rotation {\n    from {\n      transform: rotate(0deg);\n    }\n    to {\n      transform: rotate(359deg);\n    }\n  }\n\n@keyframes rotation {\n    from {\n      transform: rotate(0deg);\n    }\n    to {\n      transform: rotate(359deg);\n    }\n  }\n\n@media only screen and (min-width: 768px) {\n    h4.logo-text[_ngcontent-%COMP%] {\n      margin: 50px 0px;\n    }\n  }\n\n@media only screen and (max-width: 991px) {\n    h4.logo-text[_ngcontent-%COMP%]{\n      margin: 70px 0px;\n    }\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRvbGxhYnl0ZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsMEhBQXlLO0NBQzFLLHdCQUF3QjtDQUN4QiwyQkFBMkI7Q0FDM0IsOEJBQThCO0FBQy9COztBQUVBO0lBQ0ksY0FBYztJQUNkLGdEQUFnRDtJQUNoRCxZQUFZO0lBQ1osZ0JBQWdCO0FBQ3BCOztBQUNBO0VBQ0U7RUFDQSxlQUFlO0VBQ2Y7QUFDRjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxvQkFBb0I7QUFDdEI7O0FBRUEsMkRBQTJEOztBQUUzRDtJQUNJLDhCQUFzQjtZQUF0QixzQkFBc0I7RUFDeEI7O0FBRUE7SUFDRSx5Q0FBaUM7WUFBakMsaUNBQWlDO0VBQ25DOztBQUVBO0lBQ0UsMkNBQW1DO1lBQW5DLG1DQUFtQztFQUNyQzs7QUFFQTtJQUNFO01BQ0UsdUJBQXVCO0lBQ3pCO0lBQ0E7TUFDRSx5QkFBeUI7SUFDM0I7RUFDRjs7QUFQQTtJQUNFO01BQ0UsdUJBQXVCO0lBQ3pCO0lBQ0E7TUFDRSx5QkFBeUI7SUFDM0I7RUFDRjs7QUFFQTtJQUNFO01BQ0UsZ0JBQWdCO0lBQ2xCO0VBQ0Y7O0FBRUE7SUFDRTtNQUNFLGdCQUFnQjtJQUNsQjtFQUNGIiwiZmlsZSI6ImRvbGxhYnl0ZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRlYW0tYXJlYS12MiB7XG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudChyZ2IoMjksIDI5LCA1OSksIHJnYig0NSwgNDUsIDU5KSksIHVybChcIi4uLy4uLy4uL2Fzc2V0cy9pbWFnZXMvTFRfMDAwMV9SUi1jb3B5LnBuZ1wiKSwgdXJsKFwiLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy8vTFRfMDAwMl9MLWNvcHkucG5nXCIpO1xuXHRiYWNrZ3JvdW5kLXNpemU6IGNvbnRhaW47XG5cdGJhY2tncm91bmQtcmVwZWF0OiByZXBlYXQteTtcblx0YmFja2dyb3VuZC1ibGVuZC1tb2RlOiBsaWdodGVuO1xufVxuXG4uYWJvdXQtZG9sbGFieXRlLWltZyB7XG4gICAgbWF4LXdpZHRoOiA1MCU7XG4gICAgYm94LXNoYWRvdzogMnB4IDVweCA4cHggcmdiYSgxMTcsIDExMiwgMTEyLCAwLjEpO1xuICAgIHBhZGRpbmc6IDBweDtcbiAgICBtYXJnaW46IDUwcHggMHB4OyAgIFxufVxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA5OTFweCkge1xuICAuYWJvdXQtZG9sbGFieXRlLWltZyB7XG4gIG1heC13aWR0aDogMTAwJTtcbiAgfVxufVxuXG5wIHtcbiAgY29sb3I6ICNmZmY7XG4gIHBhZGRpbmctYm90dG9tOiAxNXB4O1xufVxuXG4vKiBmcm9tIGh0dHBzOi8vY29kZXBlbi5pby9TdHJlbmd0aGFuZEZyZWVkb20vcGVuL0JhYVFZcXcgKi9cblxuLnJvdGF0ZSB7XG4gICAgYW5pbWF0aW9uOiByb3RhdGlvbiA1cztcbiAgfVxuICBcbiAgLmxpbmVhciB7XG4gICAgYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogbGluZWFyO1xuICB9XG4gIFxuICAuaW5maW5pdGUge1xuICAgIGFuaW1hdGlvbi1pdGVyYXRpb24tY291bnQ6IGluZmluaXRlO1xuICB9XG4gIFxuICBAa2V5ZnJhbWVzIHJvdGF0aW9uIHtcbiAgICBmcm9tIHtcbiAgICAgIHRyYW5zZm9ybTogcm90YXRlKDBkZWcpO1xuICAgIH1cbiAgICB0byB7XG4gICAgICB0cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpO1xuICAgIH1cbiAgfVxuXG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzY4cHgpIHtcbiAgICBoNC5sb2dvLXRleHQge1xuICAgICAgbWFyZ2luOiA1MHB4IDBweDtcbiAgICB9XG4gIH1cblxuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDk5MXB4KSB7XG4gICAgaDQubG9nby10ZXh0e1xuICAgICAgbWFyZ2luOiA3MHB4IDBweDtcbiAgICB9XG4gIH1cbiJdfQ== */"], data: { animation: [
+    } }, styles: [".team-area-v2[_ngcontent-%COMP%] {\n  background-image: linear-gradient(rgb(29, 29, 59), rgb(45, 45, 59)), url('LT_0001_RR-copy.png'), url('LT_0002_L-copy.png');\n\tbackground-size: contain;\n\tbackground-repeat: repeat-y;\n\tbackground-blend-mode: lighten;\n}\n\n.about-dollabyte-img[_ngcontent-%COMP%] {\n    max-width: 50%;\n    box-shadow: none;\n    padding: 0px;\n    margin: 50px 0px;   \n}\n\n@media only screen and (max-width: 991px) {\n  .about-dollabyte-img[_ngcontent-%COMP%] {\n  max-width: 100%;\n  }\n}\n\np[_ngcontent-%COMP%] {\n  color: #fff;\n  padding-bottom: 15px;\n}\n\n\n\n.rotate[_ngcontent-%COMP%] {\n    -webkit-animation: rotation 5s;\n            animation: rotation 5s;\n  }\n\n.linear[_ngcontent-%COMP%] {\n    -webkit-animation-timing-function: linear;\n            animation-timing-function: linear;\n  }\n\n.infinite[_ngcontent-%COMP%] {\n    -webkit-animation-iteration-count: infinite;\n            animation-iteration-count: infinite;\n  }\n\n@-webkit-keyframes rotation {\n    from {\n      transform: rotate(0deg);\n    }\n    to {\n      transform: rotate(359deg);\n    }\n  }\n\n@keyframes rotation {\n    from {\n      transform: rotate(0deg);\n    }\n    to {\n      transform: rotate(359deg);\n    }\n  }\n\n@media only screen and (min-width: 768px) {\n    h4.logo-text[_ngcontent-%COMP%] {\n      margin: 50px 0px;\n    }\n  }\n\n@media only screen and (max-width: 991px) {\n    h4.logo-text[_ngcontent-%COMP%]{\n      margin: 70px 0px;\n    }\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRvbGxhYnl0ZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsMEhBQXlLO0NBQzFLLHdCQUF3QjtDQUN4QiwyQkFBMkI7Q0FDM0IsOEJBQThCO0FBQy9COztBQUVBO0lBQ0ksY0FBYztJQUNkLGdCQUFnQjtJQUNoQixZQUFZO0lBQ1osZ0JBQWdCO0FBQ3BCOztBQUNBO0VBQ0U7RUFDQSxlQUFlO0VBQ2Y7QUFDRjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxvQkFBb0I7QUFDdEI7O0FBRUEsMkRBQTJEOztBQUUzRDtJQUNJLDhCQUFzQjtZQUF0QixzQkFBc0I7RUFDeEI7O0FBRUE7SUFDRSx5Q0FBaUM7WUFBakMsaUNBQWlDO0VBQ25DOztBQUVBO0lBQ0UsMkNBQW1DO1lBQW5DLG1DQUFtQztFQUNyQzs7QUFFQTtJQUNFO01BQ0UsdUJBQXVCO0lBQ3pCO0lBQ0E7TUFDRSx5QkFBeUI7SUFDM0I7RUFDRjs7QUFQQTtJQUNFO01BQ0UsdUJBQXVCO0lBQ3pCO0lBQ0E7TUFDRSx5QkFBeUI7SUFDM0I7RUFDRjs7QUFFQTtJQUNFO01BQ0UsZ0JBQWdCO0lBQ2xCO0VBQ0Y7O0FBRUE7SUFDRTtNQUNFLGdCQUFnQjtJQUNsQjtFQUNGIiwiZmlsZSI6ImRvbGxhYnl0ZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRlYW0tYXJlYS12MiB7XG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudChyZ2IoMjksIDI5LCA1OSksIHJnYig0NSwgNDUsIDU5KSksIHVybChcIi4uLy4uLy4uL2Fzc2V0cy9pbWFnZXMvTFRfMDAwMV9SUi1jb3B5LnBuZ1wiKSwgdXJsKFwiLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy8vTFRfMDAwMl9MLWNvcHkucG5nXCIpO1xuXHRiYWNrZ3JvdW5kLXNpemU6IGNvbnRhaW47XG5cdGJhY2tncm91bmQtcmVwZWF0OiByZXBlYXQteTtcblx0YmFja2dyb3VuZC1ibGVuZC1tb2RlOiBsaWdodGVuO1xufVxuXG4uYWJvdXQtZG9sbGFieXRlLWltZyB7XG4gICAgbWF4LXdpZHRoOiA1MCU7XG4gICAgYm94LXNoYWRvdzogbm9uZTtcbiAgICBwYWRkaW5nOiAwcHg7XG4gICAgbWFyZ2luOiA1MHB4IDBweDsgICBcbn1cbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogOTkxcHgpIHtcbiAgLmFib3V0LWRvbGxhYnl0ZS1pbWcge1xuICBtYXgtd2lkdGg6IDEwMCU7XG4gIH1cbn1cblxucCB7XG4gIGNvbG9yOiAjZmZmO1xuICBwYWRkaW5nLWJvdHRvbTogMTVweDtcbn1cblxuLyogZnJvbSBodHRwczovL2NvZGVwZW4uaW8vU3RyZW5ndGhhbmRGcmVlZG9tL3Blbi9CYWFRWXF3ICovXG5cbi5yb3RhdGUge1xuICAgIGFuaW1hdGlvbjogcm90YXRpb24gNXM7XG4gIH1cbiAgXG4gIC5saW5lYXIge1xuICAgIGFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGxpbmVhcjtcbiAgfVxuICBcbiAgLmluZmluaXRlIHtcbiAgICBhbmltYXRpb24taXRlcmF0aW9uLWNvdW50OiBpbmZpbml0ZTtcbiAgfVxuICBcbiAgQGtleWZyYW1lcyByb3RhdGlvbiB7XG4gICAgZnJvbSB7XG4gICAgICB0cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTtcbiAgICB9XG4gICAgdG8ge1xuICAgICAgdHJhbnNmb3JtOiByb3RhdGUoMzU5ZGVnKTtcbiAgICB9XG4gIH1cblxuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2OHB4KSB7XG4gICAgaDQubG9nby10ZXh0IHtcbiAgICAgIG1hcmdpbjogNTBweCAwcHg7XG4gICAgfVxuICB9XG5cbiAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA5OTFweCkge1xuICAgIGg0LmxvZ28tdGV4dHtcbiAgICAgIG1hcmdpbjogNzBweCAwcHg7XG4gICAgfVxuICB9XG4iXX0= */"], data: { animation: [
             Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["trigger"])('fade', [
                 Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])('void => *', [
                     Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ opacity: 0 }),
@@ -1188,7 +1198,7 @@ TeamComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: [".team-area-v2[_ngcontent-%COMP%] {\n    background-image: linear-gradient(rgb(29, 29, 59), rgb(45, 45, 59)), url('LT_0001_RR-copy.png'), url('LT_0002_L-copy.png');\n\tbackground-size: contain;\n\tbackground-repeat: repeat-y;\n\tbackground-blend-mode: lighten;\n    text-align: center;\n}\ni[_ngcontent-%COMP%] {\n    margin: 2px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlYW0uY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLDBIQUF3SztDQUMzSyx3QkFBd0I7Q0FDeEIsMkJBQTJCO0NBQzNCLDhCQUE4QjtJQUMzQixrQkFBa0I7QUFDdEI7QUFDQTtJQUNJLFdBQVc7QUFDZiIsImZpbGUiOiJ0ZWFtLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGVhbS1hcmVhLXYyIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQocmdiKDI5LCAyOSwgNTkpLCByZ2IoNDUsIDQ1LCA1OSkpLCB1cmwoXCIuLi8uLi8uLi9hc3NldHMvaW1hZ2VzL0xUXzAwMDFfUlItY29weS5wbmdcIiksIHVybChcIi4uLy4uLy4uL2Fzc2V0cy9pbWFnZXMvTFRfMDAwMl9MLWNvcHkucG5nXCIpO1xuXHRiYWNrZ3JvdW5kLXNpemU6IGNvbnRhaW47XG5cdGJhY2tncm91bmQtcmVwZWF0OiByZXBlYXQteTtcblx0YmFja2dyb3VuZC1ibGVuZC1tb2RlOiBsaWdodGVuO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbmkge1xuICAgIG1hcmdpbjogMnB4O1xufSJdfQ== */"] });
+    } }, styles: [".team-area-v2[_ngcontent-%COMP%] {\n    background-image: linear-gradient(rgb(29, 29, 59), rgb(45, 45, 59)), url('LT_0001_RR-copy.png'), url('LT_0002_L-copy.png');\n\tbackground-size: contain;\n\tbackground-repeat: repeat;\n\tbackground-blend-mode: lighten;\n    text-align: center;\n}\ni[_ngcontent-%COMP%] {\n    margin: 2px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlYW0uY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLDBIQUF3SztDQUMzSyx3QkFBd0I7Q0FDeEIseUJBQXlCO0NBQ3pCLDhCQUE4QjtJQUMzQixrQkFBa0I7QUFDdEI7QUFDQTtJQUNJLFdBQVc7QUFDZiIsImZpbGUiOiJ0ZWFtLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGVhbS1hcmVhLXYyIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQocmdiKDI5LCAyOSwgNTkpLCByZ2IoNDUsIDQ1LCA1OSkpLCB1cmwoXCIuLi8uLi8uLi9hc3NldHMvaW1hZ2VzL0xUXzAwMDFfUlItY29weS5wbmdcIiksIHVybChcIi4uLy4uLy4uL2Fzc2V0cy9pbWFnZXMvTFRfMDAwMl9MLWNvcHkucG5nXCIpO1xuXHRiYWNrZ3JvdW5kLXNpemU6IGNvbnRhaW47XG5cdGJhY2tncm91bmQtcmVwZWF0OiByZXBlYXQ7XG5cdGJhY2tncm91bmQtYmxlbmQtbW9kZTogbGlnaHRlbjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5pIHtcbiAgICBtYXJnaW46IDJweDtcbn0iXX0= */"] });
 
 
 /***/ }),

@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
 
   constructor(@Inject(DOCUMENT) _document:any, 
               private router: Router) { }
-  
+  showNav: boolean = false;
               // Navigation
   navMethod: boolean = true;
   toggleNav() {
@@ -25,9 +25,12 @@ export class HeaderComponent implements OnInit {
   // Sticky Header
   @HostListener('window:scroll', ['$event'])
   onWindowScroll(_e: any) {
-    if (window.pageYOffset > 110) {
+    if (window.pageYOffset > 90) {
+      this.showNav = true;
       let element = <HTMLElement>document.getElementById('sticky-header');
       element.classList.add('sticky');
+    } else if(window.pageYOffset == 0) {
+      this.showNav = false;
     } else {
       let element = <HTMLElement>document.getElementById('sticky-header');
       element.classList.remove('sticky');

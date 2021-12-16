@@ -1,3 +1,7 @@
-body {
-    background-image: url('../../../assets/images/Layer1.png');
+.banner-area-v1 {
+    background-image: linear-gradient(rgb(45, 45, 59), rgb(29, 29, 59)), url("../../../assets/images/LT_0001_RR-copy.png"), url("../../../assets/images/LT_0002_L-copy.png");
+	background-size: contain;
+	background-repeat: repeat-x;
+	background-blend-mode: lighten;
+    text-align: center;
 }

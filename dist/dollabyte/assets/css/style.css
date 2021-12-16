@@ -263,6 +263,10 @@ p {
 .main-btn:hover::after {
 	border-color: #3137f6;
 }
+.main-btn:hover {
+	background-color: rgba(187, 159, 32, 0.705);;
+	color: #fff;
+}
 .main-btn.main-btn-2 {
 	background-color: rgba(187, 159, 32, 0.705);
 	border-color: rgba(255, 255, 255, 0.2);
@@ -522,7 +526,7 @@ p {
 }
 .nav-container {
 	background: #121212;
-	padding: 23px 50px;
+	padding: 10px 20px;
 	position: relative;
 	box-shadow: 5px 5px 8px #212121;
 }
@@ -570,13 +574,14 @@ p {
 .header-area-v2 .header-navigation .nav-container .main-menu ul > li > a {
 	color: #fff;
 }
+/*
 .header-navigation {
 	position: absolute;
 	top: 50px;
 	right: 0;
 	left: 0;
 	z-index: 999;
-}
+}*/
 .header-navigation .nav-container {
 	position: relative;
 }
@@ -1115,7 +1120,7 @@ p {
 	z-index: -1;
 	animation: shakeout .40s ease-in alternate infinite;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.banner-area-v1 .banner-shape {
 		display: none;
 	}
@@ -1145,13 +1150,14 @@ p {
 	width: 100%;
 	background-image: url("../images/Final DollaByte NFT.gif");
 	background-position: 50% 50%;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	z-index: -2;
+	margin: 5px;
 }
-@media (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	.banner-area-v1::before {
-		background-size: cover;
+		background-position: 25% 15%;
 	}
 }
 
@@ -2166,6 +2172,10 @@ p {
 .team-area {
 	margin-bottom: 100px;
 	margin-top: -120px;
+}
+
+.team-area .team-sub::before {
+	display: none;
 }
 .team-area .team-sub .team-sub-item {
 	box-shadow: 0px 16px 32px 0px rgba(177, 179, 255, 0.3);

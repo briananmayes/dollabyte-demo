@@ -7,7 +7,7 @@
 
 .about-dollabyte-img {
     max-width: 50%;
-    box-shadow: 2px 5px 8px rgba(117, 112, 112, 0.1);
+    box-shadow: none;
     padding: 0px;
     margin: 50px 0px;   
 }

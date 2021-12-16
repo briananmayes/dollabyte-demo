@@ -15,12 +15,12 @@ import { trigger, state, style, transition, animate, group } from '@angular/anim
     ])
   ]
 })
-export class DollabyteComponent implements OnInit {
+export class DollabyteComponent implements AfterViewInit {
 
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngAfterViewInit(): void {
     const faders = document.querySelectorAll('.fade-in');
     const sliders = document.querySelectorAll('.slide-in');
 
